@@ -1,0 +1,845 @@
+{
+    "7 Days to Die": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Ark: Survival Evolved": [
+        "PC",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Assassin's Creed": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL",
+        "PSN",
+        "Series"
+    ],
+    "Assassin's Creed II": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL"
+    ],
+    "Assassin's Creed III": [
+        "PS3",
+        "X360",
+        "PC",
+        "WiiU"
+    ],
+    "Assassin's Creed IV: Black Flag": [
+        "PS4",
+        "PS3",
+        "XOne",
+        "X360",
+        "WiiU",
+        "PC"
+    ],
+    "Assassin's Creed Odyssey": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Assassin's Creed Origins": [
+        "PS4",
+        "PC"
+    ],
+    "Assassin's Creed: Brotherhood": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Assassin's Creed: Revelations": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Assetto Corsa": [
+        "PC",
+        "PS4",
+        "XOne"
+    ],
+    "Batman: Arkham City": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Battlefield 3": [
+        "PC",
+        "PS3",
+        "X360"
+    ],
+    "Battlefield V": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Battlefield: Bad Company 2": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL"
+    ],
+    "BioShock Infinite": [
+        "PC",
+        "PS3",
+        "X360",
+        "OSX"
+    ],
+    "Borderlands 2": [
+        "X360",
+        "PS3",
+        "PSV"
+    ],
+    "Call of Duty 3": [
+        "XB",
+        "X360",
+        "PS2",
+        "PS3",
+        "Wii",
+        "XBL"
+    ],
+    "Call of Duty 4: Modern Warfare": [
+        "X360",
+        "PS3",
+        "PC",
+        "DS",
+        "XBL"
+    ],
+    "Call of Duty: Black Ops": [
+        "PC",
+        "PS3",
+        "X360",
+        "Wii",
+        "DS"
+    ],
+    "Call of Duty: Black Ops II": [
+        "PS3",
+        "X360",
+        "PC",
+        "WiiU"
+    ],
+    "Call of Duty: Ghosts": [
+        "WiiU",
+        "PC",
+        "PS3",
+        "X360",
+        "XOne",
+        "PS4"
+    ],
+    "Call of Duty: Modern Warfare 2": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL",
+        "PSN"
+    ],
+    "Call of Duty: Modern Warfare 3": [
+        "PC",
+        "PS3",
+        "X360"
+    ],
+    "Call of Duty: World at War": [
+        "DS",
+        "Wii",
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "Cars": [
+        "GC",
+        "DS",
+        "PS2",
+        "PSP",
+        "Wii",
+        "X360",
+        "XB",
+        "GBA",
+        "PC"
+    ],
+    "Cities: Skylines": [
+        "Linux",
+        "OSX",
+        "PC",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Crash Bandicoot N. Sane Trilogy": [
+        "PS4",
+        "NS",
+        "XOne",
+        "PC"
+    ],
+    "Cuphead": [
+        "XOne",
+        "PC",
+        "Series"
+    ],
+    "Cyberpunk 2077": [
+        "PC",
+        "PS4"
+    ],
+    "Dark Souls III": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Detroit: Become Human": [
+        "PS4",
+        "PC"
+    ],
+    "Devil May Cry 5": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Diablo III": [
+        "PC"
+    ],
+    "Dragon Age: Inquisition": [
+        "PC",
+        "PS3",
+        "X360",
+        "PS4",
+        "XOne"
+    ],
+    "Dragon Ball FighterZ": [
+        "PS4",
+        "XOne",
+        "PC",
+        "NS"
+    ],
+    "Dragon Quest XI": [
+        "3DS"
+    ],
+    "Dying Light": [
+        "XOne",
+        "X360",
+        "PS4",
+        "PS3",
+        "PC",
+        "Series"
+    ],
+    "FIFA 13": [
+        "X360",
+        "PS3",
+        "PC",
+        "Wii",
+        "PS2",
+        "3DS",
+        "PSP",
+        "WiiU"
+    ],
+    "FIFA 18": [
+        "X360",
+        "PS3",
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "FIFA 19": [
+        "XOne",
+        "X360",
+        "PS4",
+        "PS3",
+        "NS",
+        "PC"
+    ],
+    "Fallout 4": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Far Cry 3": [
+        "PC",
+        "PS3",
+        "X360"
+    ],
+    "Far Cry 4": [
+        "XOne",
+        "PS4",
+        "PC",
+        "PS3",
+        "X360"
+    ],
+    "Far Cry 5": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Final Fantasy VII": [
+        "PS",
+        "PC",
+        "PSN",
+        "iOS",
+        "PS4",
+        "NS",
+        "XOne",
+        "And"
+    ],
+    "Final Fantasy VIII": [
+        "PS",
+        "PC",
+        "PSN"
+    ],
+    "Final Fantasy XII": [
+        "PS2"
+    ],
+    "Final Fantasy XIII": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Final Fantasy XV": [
+        "PS4",
+        "XOne"
+    ],
+    "Ghost of Tsushima": [
+        "PS4"
+    ],
+    "God of War (2018)": [
+        "PS4"
+    ],
+    "God of War: Ragnar\u00f6k": [
+        "PS5"
+    ],
+    "Grand Theft Auto III": [
+        "PS2",
+        "PC",
+        "XB"
+    ],
+    "Grand Theft Auto IV": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL"
+    ],
+    "Grand Theft Auto V": [
+        "XOne",
+        "PS4",
+        "PC",
+        "PS5",
+        "XS"
+    ],
+    "Grand Theft Auto: Liberty City Stories": [
+        "PS2",
+        "PSP",
+        "PSN"
+    ],
+    "Grand Theft Auto: San Andreas": [
+        "XB",
+        "PS2",
+        "PC",
+        "XBL",
+        "OSX",
+        "WinP",
+        "And",
+        "PS3"
+    ],
+    "Grand Theft Auto: Vice City": [
+        "PS2",
+        "PC"
+    ],
+    "Grim Dawn": [
+        "PC"
+    ],
+    "Guitar Hero III: Legends of Rock": [
+        "PS3",
+        "Wii",
+        "X360",
+        "PS2",
+        "PC"
+    ],
+    "Harry Potter and the Chamber of Secrets": [
+        "GC",
+        "XB",
+        "GBA",
+        "PS",
+        "PC",
+        "PS2",
+        "GB"
+    ],
+    "Hogwarts Legacy": [
+        "PS5",
+        "XS",
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Horizon: Zero Dawn": [
+        "PS4"
+    ],
+    "Human: Fall Flat": [
+        "NS",
+        "XOne",
+        "PC"
+    ],
+    "It Takes Two": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Just Dance 3": [
+        "Wii"
+    ],
+    "Kingdom Hearts III": [
+        "PS4",
+        "XOne"
+    ],
+    "Lego Batman: The Videogame": [
+        "PS3",
+        "X360",
+        "DS",
+        "PC",
+        "PS2",
+        "PSP",
+        "Wii",
+        "PSN"
+    ],
+    "Lego Star Wars II: The Original Trilogy": [
+        "GC",
+        "DS",
+        "PS2",
+        "PSP",
+        "X360",
+        "XB",
+        "GBA",
+        "PC",
+        "OSX"
+    ],
+    "Lego Star Wars: The Video Game": [
+        "GC",
+        "PS2",
+        "XB",
+        "GBA",
+        "PC"
+    ],
+    "Madden NFL 06": [
+        "DS",
+        "GC",
+        "PS2",
+        "PSP",
+        "X360",
+        "XB",
+        "PC",
+        "GBA"
+    ],
+    "Madden NFL 07": [
+        "XB",
+        "PS3",
+        "DS",
+        "GC",
+        "PS2",
+        "PSP",
+        "Wii",
+        "X360",
+        "GBA",
+        "PC"
+    ],
+    "Mafia III": [
+        "PS4",
+        "PC",
+        "XOne"
+    ],
+    "Mario & Sonic at the Olympic Games": [
+        "Series"
+    ],
+    "Marvel's Spider-Man: Miles Morales": [
+        "PS4",
+        "PC"
+    ],
+    "Minecraft": [
+        "PC",
+        "X360",
+        "And",
+        "XOne",
+        "PSV",
+        "PS3",
+        "PS4",
+        "iOS",
+        "WiiU",
+        "NS",
+        "3DS",
+        "Series"
+    ],
+    "Monster Hunter 4": [
+        "3DS"
+    ],
+    "Monster Hunter Generations": [
+        "3DS"
+    ],
+    "Monster Hunter Rise": [
+        "NS",
+        "PC",
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4"
+    ],
+    "Monster Hunter: World": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Mortal Kombat 11": [
+        "PS4",
+        "PC",
+        "XOne",
+        "NS"
+    ],
+    "Mortal Kombat X": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "NBA 2K14": [
+        "X360",
+        "PS3",
+        "XOne",
+        "PS4",
+        "PC",
+        "And"
+    ],
+    "NBA 2K15": [
+        "XOne",
+        "X360",
+        "PS4",
+        "PS3",
+        "PC"
+    ],
+    "NBA 2K16": [
+        "X360",
+        "XOne",
+        "PS4",
+        "PS3",
+        "PC"
+    ],
+    "NBA 2K17": [
+        "PS4",
+        "XOne",
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "NBA 2K18": [
+        "XOne",
+        "PS4",
+        "NS",
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "NBA 2K19": [
+        "XOne",
+        "PS4",
+        "NS",
+        "PC"
+    ],
+    "NBA 2K21": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Naruto Shippuden: Ultimate Ninja Storm 4": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Need for Speed: Most Wanted": [
+        "XB",
+        "PS2",
+        "X360",
+        "DS",
+        "GC",
+        "PC",
+        "GBA",
+        "XBL"
+    ],
+    "Need for Speed: ProStreet": [
+        "DS",
+        "PS2",
+        "PS3",
+        "Wii",
+        "X360",
+        "PSP",
+        "PC",
+        "XBL",
+        "PSN"
+    ],
+    "Need for Speed: Undercover": [
+        "PS3",
+        "PS2",
+        "PC",
+        "PSP",
+        "X360",
+        "DS",
+        "Wii",
+        "PSN"
+    ],
+    "NieR: Automata": [
+        "PS4",
+        "PC"
+    ],
+    "Persona 5": [
+        "PS3",
+        "PS4"
+    ],
+    "PlayerUnknown's Battlegrounds": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Portal": [
+        "PC",
+        "OSX",
+        "Series"
+    ],
+    "Red Dead Redemption": [
+        "X360",
+        "PS3",
+        "XBL",
+        "PSN"
+    ],
+    "Red Dead Redemption 2": [
+        "PS4",
+        "XOne"
+    ],
+    "Resident Evil 4": [
+        "GC",
+        "PS2",
+        "Wii",
+        "PC",
+        "X360",
+        "Mob",
+        "Wii",
+        "PS3",
+        "S32X",
+        "PS4",
+        "XOne"
+    ],
+    "Resident Evil 5": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL",
+        "XOne",
+        "PS4"
+    ],
+    "Resident Evil 8: Village": [
+        "XS",
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Rise of the Tomb Raider": [
+        "PC",
+        "PS4",
+        "XOne",
+        "X360"
+    ],
+    "Rocket League": [
+        "PS4",
+        "PC",
+        "XOne",
+        "NS",
+        "Series"
+    ],
+    "Rust": [
+        "OSX",
+        "PC",
+        "Linux",
+        "XOne",
+        "PS4"
+    ],
+    "Star Wars Battlefront (2015)": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Star Wars Battlefront II (2017)": [
+        "XOne",
+        "PC",
+        "PS4"
+    ],
+    "Star Wars: The Force Unleashed": [
+        "Wii",
+        "PS3",
+        "X360",
+        "PS2",
+        "PSP",
+        "DS",
+        "PSN"
+    ],
+    "Stardew Valley": [
+        "PC",
+        "PS4",
+        "XOne",
+        "NS",
+        "And",
+        "iOS",
+        "PSV",
+        "Series"
+    ],
+    "Street Fighter II": [
+        "GB"
+    ],
+    "Street Fighter IV": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL"
+    ],
+    "Street Fighter V": [
+        "PS4",
+        "PC"
+    ],
+    "Tekken 7": [
+        "Arc",
+        "PS4",
+        "PC",
+        "XOne"
+    ],
+    "Terraria": [
+        "PC",
+        "PS3",
+        "X360",
+        "And",
+        "PSV",
+        "PS4",
+        "XOne",
+        "3DS",
+        "WiiU",
+        "NS",
+        "Series"
+    ],
+    "The Elder Scrolls Online": [
+        "PC",
+        "OSX"
+    ],
+    "The Elder Scrolls V: Skyrim": [
+        "PC",
+        "X360",
+        "PS3",
+        "NS"
+    ],
+    "The Legend of Zelda: Breath of the Wild": [
+        "WiiU",
+        "NS"
+    ],
+    "The Legend of Zelda: Twilight Princess": [
+        "GC",
+        "Wii"
+    ],
+    "The Room": [
+        "PC",
+        "NS",
+        "Series"
+    ],
+    "The Sims": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC",
+        "Series"
+    ],
+    "The Sims 3": [
+        "PC",
+        "Wii",
+        "DS",
+        "PS3",
+        "X360",
+        "3DS",
+        "OSX",
+        "WinP",
+        "And"
+    ],
+    "The Witcher 3: Wild Hunt": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Theme Park": [
+        "PS",
+        "SAT",
+        "DS",
+        "3DO",
+        "GEN",
+        "SNES",
+        "AJ",
+        "SCD",
+        "PC",
+        "PSN"
+    ],
+    "Titanfall": [
+        "XOne",
+        "X360",
+        "PC"
+    ],
+    "Tom Clancy's Ghost Recon Wildlands": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Tom Clancy's The Division": [
+        "XOne",
+        "PS4",
+        "PC",
+        "Series"
+    ],
+    "Tom Clancy's The Division 2": [
+        "PC"
+    ],
+    "Tomb Raider": [
+        "PS",
+        "PC",
+        "SAT",
+        "NGage",
+        "PSN",
+        "Series"
+    ],
+    "Tomb Raider (2013)": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Tomb Raider II": [
+        "PS",
+        "PC",
+        "PSN"
+    ],
+    "Watch Dogs": [
+        "X360",
+        "PS3",
+        "PC",
+        "WiiU",
+        "PS4",
+        "XOne",
+        "Series"
+    ],
+    "Watch Dogs 2": [
+        "PC",
+        "PS4",
+        "XOne"
+    ],
+    "Zuma": [
+        "PSN",
+        "PC",
+        "Series"
+    ],
+    "Zumba Fitness": [
+        "X360",
+        "PS3",
+        "Wii"
+    ]
+}
