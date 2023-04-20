@@ -16,9 +16,9 @@ def process_row(row, game_dict, console_set):
     # parse the game page for consoles
     game_response = requests.get(game_link)
     if game_response.status_code == 429:
-        retry_time = response.headers['Retry-After'] + 50
+        retry_time = game_response.headers['Retry-After'] + 50
         time.sleep(retry_time / 1000)
-        response = requests.get(vgchartz_url)
+        game_response = requests.get(game_link)
 
     game_soup = BeautifulSoup(game_response.content, 'html.parser')
     game_info_box = game_soup.find("div", {"id": "gameGenInfoBox"})
