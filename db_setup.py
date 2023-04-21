@@ -13,7 +13,7 @@ try:
            id             INTEGER,
            name           TEXT NOT NULL,
            description    TEXT NOT NULL,
-           cover_img      BLOB,
+           cover_img      TEXT,
            publisher      TEXT,
            age_rating     TEXT,
            game_score     INTEGER,
