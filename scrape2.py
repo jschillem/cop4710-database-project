@@ -16,8 +16,7 @@ def process_row(row, game_dict, console_set):
     # parse the game page for consoles
     game_response = requests.get(game_link)
     if game_response.status_code == 429:
-        retry_time = game_response.headers['Retry-After'] + 50
-        time.sleep(retry_time / 1000)
+        time.sleep(15)
         game_response = requests.get(game_link)
 
     game_soup = BeautifulSoup(game_response.content, 'html.parser')
@@ -39,14 +38,13 @@ def process_row(row, game_dict, console_set):
 
     game_response.close()
 
-for x in range(1, 15):
+for x in range(1, 11):
     print("\n\n")
     print(f"PAGE {x}")
-    vgchartz_url = f"https://www.vgchartz.com/games/games.php?page={x}&results=100&console=All&order=TotalShipped&ownership=Both&direction=DESC&showtotalsales=0&shownasales=0&showpalsales=0&showjapansales=0&showothersales=0&showpublisher=0&showdeveloper=0&showreleasedate=0&showlastupdate=0&showvgchartzscore=0&showcriticscore=0&showuserscore=0&showshipped=0&showmultiplat=Yes"
+    vgchartz_url = f"https://www.vgchartz.com/games/games.php?page={x}&results=200&console=All&order=TotalShipped&ownership=Both&direction=DESC&showtotalsales=0&shownasales=0&showpalsales=0&showjapansales=0&showothersales=0&showpublisher=0&showdeveloper=0&showreleasedate=0&showlastupdate=0&showvgchartzscore=0&showcriticscore=0&showuserscore=0&showshipped=0&showmultiplat=Yes"
     response = requests.get(vgchartz_url)
     if response.status_code == 429:
-        retry_time = response.headers['Retry-After'] + 50
-        time.sleep(retry_time / 1000)
+        time.sleep(15)
         response = requests.get(vgchartz_url)
 
     soup = BeautifulSoup(response.content, 'html.parser')

@@ -1,14 +1,178 @@
 {
+    ".hack//G.U. Last Recode": [
+        "PS4",
+        "PC"
+    ],
+    "13 Sentinels: Aegis Rim": [
+        "PS4",
+        "NS",
+        "PC"
+    ],
+    "3-D Ultra Pinball": [
+        "PC"
+    ],
+    "60 Seconds!": [
+        "PC",
+        "NS"
+    ],
     "7 Days to Die": [
         "PC",
         "XOne",
         "PS4"
+    ],
+    "A Hat in Time": [
+        "PC",
+        "OSX",
+        "PS4",
+        "XOne"
+    ],
+    "A Vampyre Story": [
+        "PC"
+    ],
+    "A Way Out": [
+        "PC",
+        "PS4",
+        "XOne",
+        "Series"
+    ],
+    "ARK II": [
+        "XS",
+        "PC"
+    ],
+    "Ace Combat 7: Skies Unknown": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Ace Combat: Assault Horizon": [
+        "PS3",
+        "X360",
+        "3DS"
+    ],
+    "Ace of Aces": [
+        "7800",
+        "MS"
+    ],
+    "Afro Samurai": [
+        "X360",
+        "PS3"
+    ],
+    "Agents of Mayhem": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Agony": [
+        "PC",
+        "XOne",
+        "PS4",
+        "Series"
+    ],
+    "Akiba's Trip": [
+        "PSP"
+    ],
+    "Alan Wake": [
+        "X360",
+        "PC",
+        "XBL",
+        "Series"
+    ],
+    "Alien: Isolation": [
+        "PS4",
+        "XOne",
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "Aliens: Colonial Marines": [
+        "X360",
+        "PS3",
+        "PC",
+        "WiiU"
+    ],
+    "All-Star Baseball 2003": [
+        "XB",
+        "GC",
+        "PS2",
+        "GBA"
+    ],
+    "Allied General": [
+        "PS",
+        "PC"
+    ],
+    "Alone in the Dark": [
+        "Wii",
+        "3DO",
+        "PS2",
+        "X360",
+        "XBL",
+        "PS3"
+    ],
+    "Alone in the Dark: The New Nightmare": [
+        "GB",
+        "PS2",
+        "PC",
+        "PS",
+        "DC",
+        "PSN"
+    ],
+    "Amerzone": [
+        "PC"
+    ],
+    "Amnesia: A Machine for Pigs": [
+        "OSX",
+        "PC",
+        "Linux"
+    ],
+    "Amnesia: Rebirth": [
+        "PC",
+        "PS4",
+        "PS5"
+    ],
+    "Amnesia: The Dark Descent": [
+        "PC"
+    ],
+    "Angry Birds Trilogy": [
+        "3DS",
+        "PS3",
+        "X360",
+        "Wii",
+        "WiiU",
+        "3DS"
+    ],
+    "Another World": [
+        "XOne",
+        "PC",
+        "PS4"
+    ],
+    "Arcana Heart 3": [
+        "PS3",
+        "X360",
+        "PSN"
     ],
     "Ark: Survival Evolved": [
         "PC",
         "XOne",
         "PS4",
         "NS"
+    ],
+    "Army of Two": [
+        "PS3",
+        "X360",
+        "XBL",
+        "Series"
+    ],
+    "Army of Two: The 40th Day": [
+        "PS3",
+        "PSP",
+        "X360",
+        "PSN",
+        "XBL"
+    ],
+    "Arslan: The Warriors of Legend": [
+        "PS4",
+        "PS3",
+        "XOne"
     ],
     "Assassin's Creed": [
         "PS3",
@@ -62,10 +226,111 @@
         "PS4",
         "XOne"
     ],
+    "Atelier Ryza 2: Lost Legends & the Secret Fairy": [
+        "PS4",
+        "PS5",
+        "PC",
+        "NS"
+    ],
+    "Atelier Sophie 2: The Alchemist of the Mysterious Dream": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Atelier Sophie: The Alchemist of the Mysterious Book": [
+        "PS3",
+        "PSV",
+        "PS4",
+        "PC"
+    ],
+    "Atlantis: The Lost Tales": [
+        "PS",
+        "PC",
+        "SAT"
+    ],
+    "Attack on Titan": [
+        "PSV",
+        "PS4",
+        "PS3",
+        "XOne",
+        "Series"
+    ],
+    "Attack on Titan 2": [
+        "XOne",
+        "PS4",
+        "NS",
+        "PSV"
+    ],
+    "Attack on Titan 2: Final Battle": [
+        "NS",
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Azur Lane: Crosswave": [
+        "PC"
+    ],
+    "BMX XXX": [
+        "XB",
+        "GC",
+        "PS2"
+    ],
+    "Backyard Wrestling: Don't Try This at Home": [
+        "XB",
+        "PS2"
+    ],
+    "Baldur's Gate: Dark Alliance": [
+        "XB",
+        "GC",
+        "PS2",
+        "GBA",
+        "XB",
+        "GC",
+        "PS2",
+        "GBA"
+    ],
+    "Bastion": [
+        "PS4",
+        "NS"
+    ],
+    "Batman: Arkham Asylum": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
     "Batman: Arkham City": [
         "PS3",
         "X360",
         "PC"
+    ],
+    "Batman: Arkham Knight": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Battle Chess": [
+        "3DO",
+        "NES",
+        "PC",
+        "PSN"
+    ],
+    "Battle Stadium D.O.N": [
+        "GC",
+        "PS2"
+    ],
+    "Battlefield 1942": [
+        "PC"
+    ],
+    "Battlefield 1943": [
+        "PSN",
+        "XBL",
+        "PC"
+    ],
+    "Battlefield 2: Modern Combat": [
+        "XB",
+        "X360",
+        "PS2",
+        "XBL"
     ],
     "Battlefield 3": [
         "PC",
@@ -77,11 +342,79 @@
         "PS4",
         "PC"
     ],
+    "Battlefield: Bad Company": [
+        "X360",
+        "PS3",
+        "XBL"
+    ],
     "Battlefield: Bad Company 2": [
         "PS3",
         "X360",
         "PC",
         "XBL"
+    ],
+    "Bayonetta": [
+        "X360",
+        "PS3",
+        "XBL",
+        "Series"
+    ],
+    "Bayonetta 2": [
+        "WiiU",
+        "NS"
+    ],
+    "Beat Saber": [
+        "PS4",
+        "OR"
+    ],
+    "Ben 10 Alien Force: Vilgax Attacks": [
+        "DS",
+        "Wii",
+        "PS2",
+        "X360",
+        "PSP",
+        "PSN"
+    ],
+    "Ben 10 Ultimate Alien: Cosmic Destruction": [
+        "PS2",
+        "PS3",
+        "Wii",
+        "X360",
+        "DS",
+        "PSP",
+        "PSN"
+    ],
+    "Ben 10: Alien Force": [
+        "DS",
+        "PSP",
+        "PS2",
+        "Wii",
+        "PSN"
+    ],
+    "Ben 10: Protector of Earth": [
+        "DS",
+        "PS2",
+        "PSP",
+        "Wii",
+        "PSN"
+    ],
+    "Beyond: Two Souls": [
+        "PS3",
+        "PS4"
+    ],
+    "BioShock": [
+        "X360",
+        "PC",
+        "PS3",
+        "XBL",
+        "OSX",
+        "Series"
+    ],
+    "BioShock 2": [
+        "X360",
+        "PC",
+        "PS3",
+        "OSX"
     ],
     "BioShock Infinite": [
         "PC",
@@ -89,10 +422,149 @@
         "X360",
         "OSX"
     ],
+    "Bionic Commando": [
+        "PS3",
+        "X360",
+        "NES",
+        "GB",
+        "PC"
+    ],
+    "Bionic Commando Rearmed": [
+        "PSN",
+        "XBL",
+        "PC"
+    ],
+    "Black": [
+        "XB",
+        "PS2",
+        "XBL"
+    ],
+    "Blackguards": [
+        "PC",
+        "OSX"
+    ],
+    "Blaster Master Zero": [
+        "NS",
+        "PC",
+        "3DS",
+        "PS4",
+        "XOne",
+        "XS"
+    ],
+    "BlazBlue: Cross Tag Battle": [
+        "NS",
+        "PS4",
+        "PC"
+    ],
+    "Blood Omen 2": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC"
+    ],
+    "Blood Omen: Legacy of Kain": [
+        "PS",
+        "PC",
+        "PSN"
+    ],
+    "Bloodstained: Curse of the Moon": [
+        "PSV",
+        "PC",
+        "XOne",
+        "PS4",
+        "NS",
+        "3DS"
+    ],
+    "Bloodstained: Ritual of the Night": [
+        "NS",
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Blue Reflection": [
+        "Series"
+    ],
+    "Blue Reflection: Second Light": [
+        "NS",
+        "PS4",
+        "PC"
+    ],
+    "Blur": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Borderlands": [
+        "PS3",
+        "X360",
+        "PC",
+        "PSN",
+        "Series"
+    ],
     "Borderlands 2": [
         "X360",
         "PS3",
         "PSV"
+    ],
+    "Boulder Dash": [
+        "GB",
+        "NES",
+        "VC",
+        "PC"
+    ],
+    "Bravely Default II": [
+        "NS",
+        "PC"
+    ],
+    "Bright Memory": [
+        "PC",
+        "XS"
+    ],
+    "Brink": [
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "Broken Sword II: The Smoking Mirror": [
+        "PS"
+    ],
+    "Broken Sword: The Shadow of the Templars": [
+        "PS",
+        "GBA"
+    ],
+    "Brothers in Arms: Road to Hill 30": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
+    "Brutal Legend": [
+        "PS3",
+        "X360"
+    ],
+    "Buck Rogers: Countdown to Doomsday": [
+        "GEN",
+        "PC"
+    ],
+    "Bulletstorm": [
+        "PC",
+        "PS3",
+        "X360"
+    ],
+    "Caesar II": [
+        "PC"
+    ],
+    "Caesar III": [
+        "PC"
+    ],
+    "Call of Duty": [
+        "PC",
+        "NGage",
+        "Series"
+    ],
+    "Call of Duty 2": [
+        "X360",
+        "PC",
+        "XBL"
     ],
     "Call of Duty 3": [
         "XB",
@@ -149,6 +621,45 @@
         "PS3",
         "PC"
     ],
+    "Call of Juarez: Bound in Blood": [
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "Captain Toad: Treasure Tracker": [
+        "WiiU",
+        "NS",
+        "3DS"
+    ],
+    "Captain Tsubasa: Rise of New Champions": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Carmageddon": [
+        "PC",
+        "GB",
+        "PS",
+        "Series",
+        "PC",
+        "GB",
+        "PS",
+        "Series"
+    ],
+    "Carnival Games": [
+        "Wii",
+        "DS",
+        "NS",
+        "PS4",
+        "XOne",
+        "Series"
+    ],
+    "Carrion": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
     "Cars": [
         "GC",
         "DS",
@@ -160,6 +671,45 @@
         "GBA",
         "PC"
     ],
+    "Castle Wolfenstein": [
+        "PC"
+    ],
+    "Castlevania: Lords of Shadow": [
+        "PS3",
+        "X360"
+    ],
+    "Catherine": [
+        "PS3",
+        "X360",
+        "Series"
+    ],
+    "Celeste": [
+        "NS",
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Child of Eden": [
+        "PS3",
+        "X360"
+    ],
+    "Chivalry 2": [
+        "PC",
+        "PS5",
+        "XS",
+        "XOne",
+        "PS4"
+    ],
+    "Choplifter": [
+        "MS"
+    ],
+    "Chrono Trigger": [
+        "SNES",
+        "DS",
+        "PS",
+        "VC",
+        "PSN"
+    ],
     "Cities: Skylines": [
         "Linux",
         "OSX",
@@ -168,37 +718,375 @@
         "PS4",
         "NS"
     ],
+    "Civilization": [
+        "NGage",
+        "Series"
+    ],
+    "Civilization II": [
+        "PS"
+    ],
+    "ClayFighter": [
+        "SNES",
+        "GEN",
+        "VC",
+        "WW",
+        "DSiW"
+    ],
+    "Code Vein": [
+        "PC",
+        "XOne",
+        "PS4",
+        "Series"
+    ],
+    "Comanche": [
+        "Series"
+    ],
+    "Command & Conquer": [
+        "Series"
+    ],
+    "Conquest of the New World": [
+        "PC"
+    ],
+    "Control": [
+        "XS",
+        "PS5"
+    ],
+    "Cool Spot": [
+        "SNES",
+        "GEN",
+        "GB",
+        "GG",
+        "MS",
+        "PC"
+    ],
+    "Crash Bandicoot 4: It's About Time": [
+        "NS",
+        "PC",
+        "PS5",
+        "XS"
+    ],
     "Crash Bandicoot N. Sane Trilogy": [
         "PS4",
         "NS",
         "XOne",
         "PC"
     ],
+    "Crash Team Racing Nitro-Fueled": [
+        "PS4",
+        "XOne",
+        "NS"
+    ],
+    "Creed: Rise to Glory": [
+        "PS4"
+    ],
+    "Crusader: No Remorse": [
+        "SAT",
+        "PC",
+        "PS"
+    ],
+    "Crysis 2": [
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "Cult of the Lamb": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC",
+        "NS"
+    ],
     "Cuphead": [
         "XOne",
         "PC",
         "Series"
     ],
+    "Curious George": [
+        "GC",
+        "PS2",
+        "XB",
+        "PC",
+        "GBA"
+    ],
     "Cyberpunk 2077": [
         "PC",
         "PS4"
+    ],
+    "DJ Hero": [
+        "Wii",
+        "X360",
+        "PS3",
+        "PS2"
+    ],
+    "Dark Souls": [
+        "PS3",
+        "X360",
+        "Series"
+    ],
+    "Dark Souls II": [
+        "PS3",
+        "X360",
+        "PC"
     ],
     "Dark Souls III": [
         "XOne",
         "PS4",
         "PC"
     ],
+    "Darksiders": [
+        "X360",
+        "PS3",
+        "PC",
+        "XBL",
+        "Series"
+    ],
+    "Darksiders II": [
+        "PS3",
+        "X360",
+        "PC",
+        "WiiU"
+    ],
+    "Days Gone": [
+        "PS4",
+        "PC"
+    ],
+    "Dead Cells": [
+        "NS",
+        "PS4",
+        "PC",
+        "XOne"
+    ],
+    "Dead Island": [
+        "X360",
+        "PC",
+        "PS3",
+        "Series"
+    ],
+    "Dead Rising": [
+        "X360",
+        "XBL",
+        "PS4",
+        "XOne",
+        "Series"
+    ],
+    "Dead Rising 2": [
+        "PC",
+        "X360",
+        "PS3",
+        "XOne",
+        "PS4"
+    ],
+    "Dead Rising 2: Off the Record": [
+        "PS3",
+        "X360",
+        "PC",
+        "PSN"
+    ],
+    "Dead Rising 3": [
+        "XOne"
+    ],
+    "Dead Rising 4": [
+        "XOne",
+        "PC"
+    ],
+    "Dead Space": [
+        "PS3",
+        "PC",
+        "X360",
+        "XBL",
+        "Series"
+    ],
+    "Dead Space 2": [
+        "PC",
+        "PS3",
+        "X360",
+        "PSN"
+    ],
+    "Dead by Daylight": [
+        "PC",
+        "XOne",
+        "PS4",
+        "NS",
+        "XS",
+        "PS5"
+    ],
+    "Dead or Alive 5": [
+        "PS3",
+        "X360",
+        "Arc"
+    ],
+    "Dead or Alive 5 Last Round": [
+        "XOne",
+        "PS4",
+        "PS3",
+        "PC",
+        "X360"
+    ],
+    "Dead or Alive 5 Ultimate": [
+        "PS3",
+        "X360"
+    ],
+    "Dead or Alive 6": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Dead to Rights II": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
+    "Dead to Rights: Retribution": [
+        "X360",
+        "PS3"
+    ],
+    "Death Stranding": [
+        "PC"
+    ],
+    "Deep Rock Galactic": [
+        "XOne",
+        "PC"
+    ],
+    "Demon Slayer: Kimetsu no Yaiba \u2013 The Hinokami Chronicles": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Despicable Me: The Game": [
+        "Wii",
+        "PSP",
+        "PS2",
+        "PSN",
+        "DS"
+    ],
+    "Destroy All Humans!": [
+        "XB",
+        "PS2",
+        "XBL",
+        "PS4",
+        "Series"
+    ],
     "Detroit: Become Human": [
         "PS4",
         "PC"
+    ],
+    "Deus Ex": [
+        "PC",
+        "Series"
+    ],
+    "Deus Ex: Human Revolution": [
+        "PS3",
+        "X360",
+        "PC",
+        "WiiU"
+    ],
+    "Deus Ex: Invisible War": [
+        "XB",
+        "PC"
+    ],
+    "Devil May Cry 4": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL"
     ],
     "Devil May Cry 5": [
         "PS4",
         "XOne",
         "PC"
     ],
+    "Devil May Cry HD Collection": [
+        "PS3",
+        "X360",
+        "XOne",
+        "PS4"
+    ],
+    "Diablo II: Resurrected": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC",
+        "NS"
+    ],
     "Diablo III": [
         "PC"
+    ],
+    "Diablo IV": [
+        "XS",
+        "PS5"
+    ],
+    "Disgaea 7": [
+        "PS5",
+        "PS4",
+        "NS",
+        "PC"
+    ],
+    "Dishonored 2": [
+        "PS4"
+    ],
+    "Disney Infinity": [
+        "PC",
+        "3DS",
+        "PS3",
+        "PSV",
+        "Wii",
+        "WiiU",
+        "X360"
+    ],
+    "Disney's Aladdin in Nasira's Revenge": [
+        "PS",
+        "PC"
+    ],
+    "Doki Doki Literature Club Plus!": [
+        "PS5",
+        "PS4",
+        "NS",
+        "XS",
+        "XOne",
+        "PC"
+    ],
+    "Donkey Kong Country: Tropical Freeze": [
+        "WiiU",
+        "NS"
+    ],
+    "Doom": [
+        "PS",
+        "PC",
+        "SNES",
+        "GBA",
+        "3DO",
+        "SAT",
+        "XBL",
+        "AJ"
+    ],
+    "Doom 3": [
+        "XB",
+        "PC"
+    ],
+    "Doom II": [
+        "PC",
+        "GBA",
+        "XBL",
+        "PC",
+        "GBA",
+        "XBL"
+    ],
+    "Dracula: Resurrection": [
+        "Series"
+    ],
+    "Dragon Age II": [
+        "PC",
+        "PS3",
+        "X360",
+        "PSN",
+        "PC",
+        "PS3",
+        "X360",
+        "PSN"
     ],
     "Dragon Age: Inquisition": [
         "PC",
@@ -207,14 +1095,119 @@
         "PS4",
         "XOne"
     ],
+    "Dragon Age: Origins": [
+        "PS3",
+        "PC",
+        "X360"
+    ],
     "Dragon Ball FighterZ": [
         "PS4",
         "XOne",
         "PC",
         "NS"
     ],
+    "Dragon Ball Xenoverse": [
+        "Series"
+    ],
+    "Dragon Ball Z: Battle of Z": [
+        "PSV",
+        "X360",
+        "PS3"
+    ],
+    "Dragon Ball Z: Burst Limit": [
+        "PS3",
+        "X360"
+    ],
+    "Dragon Ball Z: Kakarot": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Dragon Ball Z: Ultimate Tenkaichi": [
+        "X360",
+        "PS3"
+    ],
+    "Dragon Ball: Raging Blast": [
+        "PS3",
+        "X360"
+    ],
+    "Dragon Ball: Raging Blast 2": [
+        "PS3",
+        "X360"
+    ],
+    "Dragon Lore": [
+        "3DO",
+        "PC"
+    ],
+    "Dragon Quest Builders": [
+        "Series"
+    ],
+    "Dragon Quest Builders 2": [
+        "PS4",
+        "NS"
+    ],
+    "Dragon Quest X": [
+        "Wii",
+        "WiiU",
+        "And",
+        "PC",
+        "3DS"
+    ],
     "Dragon Quest XI": [
         "3DS"
+    ],
+    "Dragon's Dogma": [
+        "PS3",
+        "X360",
+        "PC",
+        "Series"
+    ],
+    "Dragon's Dogma: Dark Arisen": [
+        "XOne",
+        "PS4",
+        "PS3",
+        "PC",
+        "NS"
+    ],
+    "Dreamfall Chapters": [
+        "PC"
+    ],
+    "Dreamfall: The Longest Journey": [
+        "XB",
+        "PC",
+        "XBL"
+    ],
+    "Driver": [
+        "PS",
+        "PC",
+        "PSN",
+        "GB",
+        "Series"
+    ],
+    "DuckTales: Remastered": [
+        "PC",
+        "X360",
+        "WiiU",
+        "PS3"
+    ],
+    "Duke Nukem 3D": [
+        "PC",
+        "SAT",
+        "GEN",
+        "XBL"
+    ],
+    "Dungeon Siege III": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Dust: An Elysian Tail": [
+        "XBL",
+        "PS4",
+        "PC",
+        "OSX",
+        "Linux",
+        "NS"
     ],
     "Dying Light": [
         "XOne",
@@ -223,6 +1216,121 @@
         "PS3",
         "PC",
         "Series"
+    ],
+    "Dying Light 2 Stay Human": [
+        "PS4",
+        "XOne",
+        "PC",
+        "XS",
+        "PS5"
+    ],
+    "Dynasty Warriors 7": [
+        "PS3",
+        "X360"
+    ],
+    "Dynasty Warriors 8": [
+        "PS3"
+    ],
+    "Dynasty Warriors 9": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Dynasty Warriors: Gundam 2": [
+        "PS2",
+        "PS3",
+        "X360"
+    ],
+    "Dynasty Warriors: Gundam 3": [
+        "PS3",
+        "X360"
+    ],
+    "Earth Defense Force 5": [
+        "PS4",
+        "PC"
+    ],
+    "Earthworm Jim": [
+        "SNES",
+        "GG",
+        "GEN",
+        "GBA",
+        "GB",
+        "MS",
+        "VC",
+        "PC",
+        "WW",
+        "DSiW"
+    ],
+    "Egypt 1156 B.C.: Tomb of the Pharaoh": [
+        "PS"
+    ],
+    "Egypt II: The Heliopolis Prophecy": [
+        "PC",
+        "PS"
+    ],
+    "Elite": [
+        "NES",
+        "PC",
+        "MSX",
+        "ZXS",
+        "C64",
+        "ACPC",
+        "ApII",
+        "AST",
+        "Amig",
+        "Aco",
+        "BBCM",
+        "MSD",
+        "Series"
+    ],
+    "Ender Lilies: Quietus of the Knights": [
+        "NS",
+        "PC",
+        "PS4",
+        "PS5",
+        "XOne",
+        "XS"
+    ],
+    "Enslaved: Odyssey to the West": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Enter the Gungeon": [
+        "PS4",
+        "Linux",
+        "OSX",
+        "PC",
+        "NS"
+    ],
+    "Enter the Matrix": [
+        "GC",
+        "PS2",
+        "XB",
+        "PC"
+    ],
+    "Evolve": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Eye of the Beholder": [
+        "Lynx",
+        "PC",
+        "Series"
+    ],
+    "F-15 Strike Eagle": [
+        "GG",
+        "GB",
+        "NES",
+        "PC"
+    ],
+    "F1 Manager 2022": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
     ],
     "FIFA 13": [
         "X360",
@@ -250,12 +1358,64 @@
         "NS",
         "PC"
     ],
+    "FIFA Street 2": [
+        "GC",
+        "PS2",
+        "DS",
+        "PSP",
+        "XB"
+    ],
+    "Fahrenheit": [
+        "SCD"
+    ],
+    "Fairy Tail": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Fall Guys: Ultimate Knockout": [
+        "PS4",
+        "PC",
+        "NS",
+        "XOne",
+        "XS"
+    ],
+    "Fallout 3": [
+        "X360",
+        "PS3",
+        "PC",
+        "XBL"
+    ],
     "Fallout 4": [
         "XOne",
         "PS4",
         "PC"
     ],
+    "Fallout 76": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Fallout: New Vegas": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Fantastic Four": [
+        "PS"
+    ],
+    "Far Cry 2": [
+        "PC",
+        "X360",
+        "PS3",
+        "XBL"
+    ],
     "Far Cry 3": [
+        "PC",
+        "PS3",
+        "X360"
+    ],
+    "Far Cry 3: Blood Dragon": [
         "PC",
         "PS3",
         "X360"
@@ -270,6 +1430,125 @@
     "Far Cry 5": [
         "PS4",
         "XOne",
+        "PC"
+    ],
+    "Far Cry 6": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Farming Simulator 17": [
+        "PS4",
+        "XOne",
+        "PC",
+        "NS"
+    ],
+    "Farming Simulator 19": [
+        "XOne",
+        "PS4",
+        "PC",
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Fatal Frame: Maiden of Black Water": [
+        "WiiU",
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Fate/Extella: The Umbral Star": [
+        "PS4",
+        "PSV",
+        "NS"
+    ],
+    "Fez": [
+        "PC",
+        "XBL",
+        "PS4",
+        "PSV",
+        "NS"
+    ],
+    "Fight Night 2004": [
+        "XB",
+        "PS2",
+        "XB",
+        "PS2"
+    ],
+    "Fight Night Round 3": [
+        "XB",
+        "PS2",
+        "PS3",
+        "PSP",
+        "X360",
+        "XBL",
+        "PSN"
+    ],
+    "Final Fantasy": [
+        "WS",
+        "NES",
+        "PS",
+        "VC",
+        "PSN",
+        "GBA",
+        "Series"
+    ],
+    "Final Fantasy Crystal Chronicles: Echoes of Time": [
+        "DS",
+        "Wii"
+    ],
+    "Final Fantasy II": [
+        "WS",
+        "SNES",
+        "NES",
+        "VC",
+        "PSN",
+        "PS",
+        "GBA",
+        "PSP"
+    ],
+    "Final Fantasy III": [
+        "NES",
+        "DS",
+        "SNES",
+        "VC",
+        "PSP",
+        "PC"
+    ],
+    "Final Fantasy IV": [
+        "PS",
+        "DS",
+        "WS",
+        "PSP",
+        "Wii",
+        "GBA",
+        "TG16",
+        "PC"
+    ],
+    "Final Fantasy IX": [
+        "PS",
+        "PSN",
+        "iOS",
+        "NS",
+        "PC",
+        "XOne",
+        "PS4",
+        "And"
+    ],
+    "Final Fantasy V": [
+        "SNES",
+        "PS",
+        "VC",
+        "PSN"
+    ],
+    "Final Fantasy VI": [
+        "PS",
+        "PSN",
+        "GBA",
         "PC"
     ],
     "Final Fantasy VII": [
@@ -287,6 +1566,11 @@
         "PC",
         "PSN"
     ],
+    "Final Fantasy XI: Online": [
+        "PS2",
+        "X360",
+        "PC"
+    ],
     "Final Fantasy XII": [
         "PS2"
     ],
@@ -295,18 +1579,182 @@
         "X360",
         "PC"
     ],
+    "Final Fantasy XIII-2": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
     "Final Fantasy XV": [
         "PS4",
         "XOne"
     ],
+    "Fire Emblem Warriors": [
+        "3DS",
+        "NS",
+        "Series",
+        "3DS",
+        "NS",
+        "Series"
+    ],
+    "Firewatch": [
+        "Linux",
+        "OSX",
+        "PC",
+        "PS4",
+        "NS"
+    ],
+    "Fist of the North Star: Ken's Rage 2": [
+        "PS3",
+        "X360",
+        "WiiU"
+    ],
+    "Flashback": [
+        "NS",
+        "XOne",
+        "PS4"
+    ],
+    "FlatOut": [
+        "XB",
+        "PS2",
+        "PC",
+        "Wii"
+    ],
+    "FlatOut 2": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
+    "Football Manager 2011": [
+        "PC"
+    ],
+    "Football Manager 2013": [
+        "PC",
+        "And",
+        "OSX"
+    ],
+    "Football Manager 2014": [
+        "PC",
+        "Linux",
+        "OSX"
+    ],
+    "Football Manager 2015": [
+        "And",
+        "Linux",
+        "OSX",
+        "PC"
+    ],
+    "Football Manager 2016": [
+        "PC",
+        "OSX",
+        "Linux"
+    ],
+    "Football Manager 2017": [
+        "PC",
+        "Linux",
+        "OSX"
+    ],
+    "Football Manager 2022": [
+        "XS",
+        "XOne",
+        "PC",
+        "NS"
+    ],
+    "Football Manager 2023": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PC",
+        "NS"
+    ],
+    "Freddy Pharkas: Frontier Pharmacist": [
+        "PC"
+    ],
+    "Friday the 13th: The Game": [
+        "PS4",
+        "XOne"
+    ],
+    "Frontier: First Encounters": [
+        "MSD"
+    ],
+    "Frozen Synapse": [
+        "PC",
+        "PSV",
+        "PS3",
+        "OSX"
+    ],
+    "GRIS": [
+        "NS",
+        "PS4",
+        "PC",
+        "iOS"
+    ],
+    "Gal Gun: Double Peace": [
+        "PS4",
+        "PSV",
+        "PC"
+    ],
     "Ghost of Tsushima": [
         "PS4"
+    ],
+    "Ghostbusters: The Video Game": [
+        "Wii",
+        "DS",
+        "X360",
+        "PS3",
+        "PC",
+        "PS2",
+        "PSP",
+        "PSN",
+        "XBL"
+    ],
+    "Ghostrunner": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS",
+        "XS",
+        "PS5"
+    ],
+    "Goat Simulator": [
+        "PC",
+        "iOS"
+    ],
+    "God Eater 2": [
+        "PSV",
+        "PSP"
+    ],
+    "God Wars: Future Past": [
+        "PS4",
+        "PSV"
     ],
     "God of War (2018)": [
         "PS4"
     ],
     "God of War: Ragnar\u00f6k": [
         "PS5"
+    ],
+    "GoldenEye: Rogue Agent": [
+        "XB",
+        "DS",
+        "GC",
+        "PS2"
+    ],
+    "Gone Home": [
+        "OSX",
+        "Linux",
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Granblue Fantasy: Versus": [
+        "PC"
+    ],
+    "Grand Theft Auto": [
+        "PS",
+        "GBA",
+        "PC",
+        "GB",
+        "Series"
     ],
     "Grand Theft Auto III": [
         "PS2",
@@ -345,8 +1793,23 @@
         "PS2",
         "PC"
     ],
+    "Grand Theft Auto: Vice City Stories": [
+        "PSP",
+        "PS2",
+        "PSN"
+    ],
     "Grim Dawn": [
         "PC"
+    ],
+    "Guitar Hero 5": [
+        "PS3",
+        "X360",
+        "Wii",
+        "PS2"
+    ],
+    "Guitar Hero II": [
+        "PS2",
+        "X360"
     ],
     "Guitar Hero III: Legends of Rock": [
         "PS3",
@@ -354,6 +1817,46 @@
         "X360",
         "PS2",
         "PC"
+    ],
+    "Guitar Hero: Aerosmith": [
+        "Wii",
+        "PS2",
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "Guitar Hero: Metallica": [
+        "PS3",
+        "X360",
+        "Wii",
+        "PS2"
+    ],
+    "Guitar Hero: Van Halen": [
+        "Wii",
+        "X360",
+        "PS3",
+        "PS2"
+    ],
+    "Gundam Breaker": [
+        "PS3",
+        "PSV"
+    ],
+    "Hades": [
+        "PC",
+        "NS",
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC",
+        "NS",
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4"
+    ],
+    "HardBall!": [
+        "GEN"
     ],
     "Harry Potter and the Chamber of Secrets": [
         "GC",
@@ -364,6 +1867,51 @@
         "PS2",
         "GB"
     ],
+    "Harry Potter and the Prisoner of Azkaban": [
+        "GC",
+        "PS2",
+        "XB",
+        "PC",
+        "GBA"
+    ],
+    "Heavy Rain": [
+        "PS3",
+        "PS4"
+    ],
+    "Hellblade: Senua's Sacrifice": [
+        "PS4",
+        "PC",
+        "XOne",
+        "NS"
+    ],
+    "Hello Neighbor": [
+        "XOne",
+        "PC",
+        "NS",
+        "PS4"
+    ],
+    "Hitman 2: Silent Assassin": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC"
+    ],
+    "Hitman: Absolution": [
+        "PC",
+        "PS3",
+        "X360"
+    ],
+    "Hitman: Blood Money": [
+        "XB",
+        "PS2",
+        "X360",
+        "PC"
+    ],
+    "Hitman: Contracts": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
     "Hogwarts Legacy": [
         "PS5",
         "XS",
@@ -371,6 +1919,30 @@
         "PS4",
         "PC",
         "NS"
+    ],
+    "Hollow Knight": [
+        "PC",
+        "NS",
+        "Series"
+    ],
+    "Homefront": [
+        "PS3",
+        "X360",
+        "PC",
+        "PSN",
+        "XBL",
+        "Series"
+    ],
+    "Homefront: The Revolution": [
+        "Linux",
+        "OSX",
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Horizon: Forbidden West": [
+        "PS5",
+        "PS4"
     ],
     "Horizon: Zero Dawn": [
         "PS4"
@@ -380,6 +1952,41 @@
         "XOne",
         "PC"
     ],
+    "Icey": [
+        "PC"
+    ],
+    "Imperialism": [
+        "PC",
+        "Series"
+    ],
+    "Inside": [
+        "PC",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Iron Helix": [
+        "SCD"
+    ],
+    "Iron Man": [
+        "Wii",
+        "PS3",
+        "X360",
+        "PS2",
+        "PSP",
+        "DS",
+        "PC",
+        "PSN"
+    ],
+    "Iron Man 2": [
+        "DS",
+        "PC",
+        "PS3",
+        "PSP",
+        "Wii",
+        "X360",
+        "PSN"
+    ],
     "It Takes Two": [
         "XS",
         "XOne",
@@ -387,12 +1994,122 @@
         "PS4",
         "PC"
     ],
+    "James Cameron's Avatar: The Game": [
+        "DS",
+        "PC",
+        "PS3",
+        "X360",
+        "PSP",
+        "Wii",
+        "PSN"
+    ],
+    "Jikkyou Powerful Pro Baseball 2016": [
+        "PSV",
+        "PS4",
+        "PS3"
+    ],
+    "Judgment": [
+        "PS4"
+    ],
+    "Jurassic Park: Operation Genesis": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
+    "Jurassic World Evolution": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Just Cause": [
+        "XB",
+        "PS2",
+        "X360",
+        "PC",
+        "Series"
+    ],
+    "Just Dance 2015": [
+        "XOne",
+        "WiiU",
+        "Wii",
+        "X360",
+        "PS4",
+        "PS3"
+    ],
     "Just Dance 3": [
         "Wii"
+    ],
+    "Kerbal Space Program": [
+        "Linux",
+        "OSX",
+        "PC",
+        "Series"
+    ],
+    "King's Quest IV: The Perils of Rosella": [
+        "PC"
+    ],
+    "King's Quest V: Absence Makes the Heart Go Yonder!": [
+        "PC"
+    ],
+    "King's Quest VI: Heir Today, Gone Tomorrow": [
+        "PC"
+    ],
+    "Kingdom Come: Deliverance": [
+        "XOne",
+        "PS4",
+        "OSX",
+        "PC",
+        "Linux"
     ],
     "Kingdom Hearts III": [
         "PS4",
         "XOne"
+    ],
+    "Kingdoms of Amalur: Reckoning": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "L.A. Noire": [
+        "PS3",
+        "X360",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Labyrinth of Refrain: Coven of Dusk": [
+        "PSV",
+        "PS4",
+        "NS"
+    ],
+    "Lara Croft and the Guardian of Light": [
+        "PSN",
+        "XBL",
+        "PC"
+    ],
+    "Legacy of Kain: Defiance": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
+    "Legacy of Kain: Soul Reaver": [
+        "DC",
+        "PS",
+        "PC",
+        "PSN"
+    ],
+    "Lego Batman 2: DC Super Heroes": [
+        "X360",
+        "PS3",
+        "Wii",
+        "3DS",
+        "DS",
+        "PSV",
+        "PC",
+        "WiiU",
+        "iOS",
+        "And",
+        "OSX"
     ],
     "Lego Batman: The Videogame": [
         "PS3",
@@ -403,6 +2120,26 @@
         "PSP",
         "Wii",
         "PSN"
+    ],
+    "Lego Harry Potter: Years 1-4": [
+        "X360",
+        "PS3",
+        "Wii",
+        "PSP",
+        "DS",
+        "PC",
+        "PSN",
+        "OSX"
+    ],
+    "Lego Jurassic World": [
+        "PS4",
+        "PS3",
+        "XOne",
+        "X360",
+        "WiiU",
+        "3DS",
+        "PC",
+        "PSV"
     ],
     "Lego Star Wars II: The Original Trilogy": [
         "GC",
@@ -415,8 +2152,104 @@
         "PC",
         "OSX"
     ],
+    "Lego Star Wars: The Complete Saga": [
+        "Wii",
+        "X360",
+        "DS",
+        "PS3",
+        "XBL",
+        "OSX",
+        "PC"
+    ],
+    "Lego Star Wars: The Skywalker Saga": [
+        "XOne",
+        "PC",
+        "NS",
+        "PS4",
+        "XS",
+        "PS5"
+    ],
     "Lego Star Wars: The Video Game": [
         "GC",
+        "PS2",
+        "XB",
+        "GBA",
+        "PC"
+    ],
+    "Leisure Suit Larry 6: Shape Up or Slip Out!": [
+        "PC"
+    ],
+    "Leisure Suit Larry in the Land of the Lounge Lizards": [
+        "PC",
+        "PSN",
+        "XBL"
+    ],
+    "Life is Strange": [
+        "PC",
+        "PS3",
+        "PS4",
+        "X360",
+        "XOne",
+        "iOS"
+    ],
+    "Limbo": [
+        "XBL",
+        "PSV",
+        "OSX",
+        "XOne",
+        "Linux",
+        "NS"
+    ],
+    "Little Big Adventure": [
+        "Series"
+    ],
+    "Little Nightmares": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS",
+        "Series"
+    ],
+    "Little Nightmares 2": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Lode Runner": [
+        "DS",
+        "NES",
+        "VC",
+        "XBL",
+        "GBA"
+    ],
+    "Lords of the Fallen": [
+        "XOne",
+        "PC",
+        "PS4"
+    ],
+    "Lords of the Realm II": [
+        "PC"
+    ],
+    "Lost Planet 2": [
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "MDK": [
+        "PS",
+        "PC"
+    ],
+    "MLB The Show 22": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "NS"
+    ],
+    "Madagascar": [
+        "GC",
+        "DS",
         "PS2",
         "XB",
         "GBA",
@@ -444,17 +2277,252 @@
         "GBA",
         "PC"
     ],
+    "Madden NFL 08": [
+        "PS3",
+        "X360",
+        "DS",
+        "GC",
+        "PS2",
+        "PSP",
+        "Wii",
+        "XB",
+        "PC"
+    ],
+    "Madden NFL 09": [
+        "DS",
+        "PS2",
+        "PS3",
+        "PSP",
+        "X360",
+        "XB"
+    ],
+    "Madden NFL 10": [
+        "Wii",
+        "PS3",
+        "PS2",
+        "X360",
+        "PSP",
+        "PSN"
+    ],
+    "Madden NFL 11": [
+        "PS3",
+        "X360",
+        "PSP",
+        "PS2",
+        "Wii",
+        "PSN"
+    ],
+    "Madden NFL 12": [
+        "PS3",
+        "X360",
+        "Wii",
+        "3DS",
+        "PS2",
+        "PSP"
+    ],
+    "Madden NFL 13": [
+        "PS3",
+        "X360",
+        "Wii",
+        "PSV",
+        "WiiU"
+    ],
+    "Madden NFL 2004": [
+        "XB",
+        "GC",
+        "PS2",
+        "GBA",
+        "PC",
+        "PS"
+    ],
+    "Madden NFL 2005": [
+        "XB",
+        "DS",
+        "GC",
+        "PS2",
+        "GBA",
+        "PC",
+        "PS"
+    ],
+    "Madden NFL 23": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Madden NFL 25": [
+        "X360",
+        "PS3",
+        "XOne",
+        "PS4",
+        "X360",
+        "PS3",
+        "XOne",
+        "PS4"
+    ],
     "Mafia III": [
         "PS4",
         "PC",
         "XOne"
     ],
+    "Manhunt": [
+        "XB",
+        "PS2",
+        "PC",
+        "Series"
+    ],
+    "Manhunter 2: San Francisco": [
+        "PC"
+    ],
+    "Manhunter: New York": [
+        "PC"
+    ],
     "Mario & Sonic at the Olympic Games": [
         "Series"
+    ],
+    "Mario Tennis": [
+        "N64",
+        "GB",
+        "VC",
+        "Series"
+    ],
+    "Marvel vs. Capcom 3: Fate of Two Worlds": [
+        "PS3",
+        "X360"
+    ],
+    "Marvel vs. Capcom: Infinite": [
+        "PC",
+        "PS4",
+        "XOne",
+        "PC",
+        "PS4",
+        "XOne"
     ],
     "Marvel's Spider-Man: Miles Morales": [
         "PS4",
         "PC"
+    ],
+    "Mass Effect 3": [
+        "X360",
+        "PC",
+        "PS3",
+        "WiiU"
+    ],
+    "Mass Effect: Andromeda": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Master of Orion II: Battle at Antares": [
+        "PC"
+    ],
+    "Max Payne": [
+        "XB",
+        "PS2",
+        "PC",
+        "GBA",
+        "XBL",
+        "Series"
+    ],
+    "Max Payne 3": [
+        "PC",
+        "X360"
+    ],
+    "Medal of Honor: Warfighter": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Mega Man 11": [
+        "NS",
+        "XOne",
+        "PS4"
+    ],
+    "Mega Man Legacy Collection": [
+        "PS4",
+        "XOne",
+        "PC",
+        "3DS"
+    ],
+    "MegaRace": [
+        "3DO",
+        "PC"
+    ],
+    "Melty Blood: Type Lumina": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Men in Black: The Game": [
+        "PS",
+        "PC"
+    ],
+    "Metal Gear Solid": [
+        "PS",
+        "GB",
+        "PC",
+        "GB",
+        "PSN"
+    ],
+    "Metal Gear Solid V: Ground Zeroes": [
+        "X360",
+        "PS3",
+        "PS4",
+        "XOne",
+        "PC",
+        "X360",
+        "PS3",
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Metal Gear Solid V: The Phantom Pain": [
+        "PS3",
+        "XOne",
+        "X360",
+        "PS4",
+        "PC"
+    ],
+    "Metal Max Xeno": [
+        "PS4",
+        "PSV"
+    ],
+    "Metro 2033": [
+        "X360",
+        "PC"
+    ],
+    "Metro Exodus": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Metro Redux": [
+        "PS4",
+        "XOne"
+    ],
+    "Michael Jackson: The Experience": [
+        "DS",
+        "Wii",
+        "X360",
+        "PSP",
+        "PS3",
+        "PSN"
+    ],
+    "Middle-earth: Shadow of War": [
+        "XOne",
+        "PC",
+        "PS4"
+    ],
+    "Midway Arcade Treasures": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC"
+    ],
+    "Miitopia": [
+        "3DS"
     ],
     "Minecraft": [
         "PC",
@@ -470,6 +2538,32 @@
         "3DS",
         "Series"
     ],
+    "Mini Ninjas": [
+        "PS3",
+        "X360",
+        "DS",
+        "Wii",
+        "PC",
+        "XBL"
+    ],
+    "Mirror's Edge": [
+        "PS3",
+        "X360",
+        "PC",
+        "XBL",
+        "Series"
+    ],
+    "Monark": [
+        "PS5",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Monster Boy and the Cursed Kingdom": [
+        "NS",
+        "PS4",
+        "XOne"
+    ],
     "Monster Hunter 4": [
         "3DS"
     ],
@@ -484,10 +2578,46 @@
         "PS5",
         "PS4"
     ],
+    "Monster Hunter Rise: Sunbreak": [
+        "PC",
+        "NS"
+    ],
+    "Monster Hunter Stories 2: Wings of Ruin": [
+        "NS",
+        "PC"
+    ],
     "Monster Hunter: World": [
         "PC",
         "XOne",
         "PS4"
+    ],
+    "Monument Valley": [
+        "iOS",
+        "Series"
+    ],
+    "Moonlighter": [
+        "PC",
+        "PS4",
+        "XOne",
+        "NS"
+    ],
+    "Mortal Kombat": [
+        "GEN",
+        "SNES",
+        "GB",
+        "GG",
+        "SCD",
+        "MS",
+        "PC",
+        "PS3",
+        "X360",
+        "Arc",
+        "Series"
+    ],
+    "Mortal Kombat (2011)": [
+        "PS3",
+        "PSV",
+        "X360"
     ],
     "Mortal Kombat 11": [
         "PS4",
@@ -495,10 +2625,94 @@
         "XOne",
         "NS"
     ],
+    "Mortal Kombat II": [
+        "SNES",
+        "SAT",
+        "GG",
+        "GB",
+        "MS",
+        "PSN",
+        "PS",
+        "PC",
+        "Arc"
+    ],
     "Mortal Kombat X": [
         "XOne",
         "PS4",
         "PC"
+    ],
+    "Mortal Kombat: Deadly Alliance": [
+        "XB",
+        "GC",
+        "PS2",
+        "GBA"
+    ],
+    "Mortal Kombat: Deception": [
+        "XB",
+        "GC",
+        "PS2"
+    ],
+    "Mortal Kombat: Shaolin Monks": [
+        "XB",
+        "PS2"
+    ],
+    "My Friend Pedro": [
+        "XOne",
+        "PS4"
+    ],
+    "My Hero One's Justice": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Myst III: Exile": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
+    "Myth II: Soulblighter": [
+        "PC"
+    ],
+    "Myth: The Fallen Lords": [
+        "PC"
+    ],
+    "NASCAR Racing": [
+        "PC",
+        "PS"
+    ],
+    "NBA 2K10": [
+        "PS3",
+        "PS2",
+        "PC",
+        "PSP",
+        "Wii",
+        "X360",
+        "PSN",
+        "XBL"
+    ],
+    "NBA 2K11": [
+        "X360",
+        "PS3",
+        "Wii",
+        "PC",
+        "PS2",
+        "PSP"
+    ],
+    "NBA 2K12": [
+        "PS3",
+        "X360",
+        "Wii",
+        "PSP"
+    ],
+    "NBA 2K13": [
+        "X360",
+        "PS3",
+        "Wii",
+        "WiiU",
+        "PC",
+        "PSP",
+        "And"
     ],
     "NBA 2K14": [
         "X360",
@@ -551,10 +2765,75 @@
         "PC",
         "NS"
     ],
+    "NBA 2K9": [
+        "PS2",
+        "X360",
+        "PS3",
+        "PC",
+        "PS2",
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "NCAA Football 07": [
+        "XB",
+        "PS2",
+        "PSP",
+        "X360"
+    ],
+    "NCAA Football 14": [
+        "X360",
+        "PS3"
+    ],
+    "NCAA Football 2003": [
+        "XB",
+        "GC",
+        "PS2"
+    ],
+    "NCAA Football 2004": [
+        "XB",
+        "GC",
+        "PS2",
+        "NGage"
+    ],
+    "NFL Blitz Pro": [
+        "XB",
+        "GC",
+        "PS2"
+    ],
+    "Naruto Shippuden: Ultimate Ninja Storm 2": [
+        "X360",
+        "PS3"
+    ],
+    "Naruto Shippuden: Ultimate Ninja Storm 3": [
+        "X360",
+        "PS3"
+    ],
     "Naruto Shippuden: Ultimate Ninja Storm 4": [
         "XOne",
         "PS4",
         "PC"
+    ],
+    "Naruto Shippuden: Ultimate Ninja Storm Generations": [
+        "PS3",
+        "X360"
+    ],
+    "Naruto Shippuden: Ultimate Ninja Storm Revolution": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Naruto Shippuden: Ultimate Ninja Storm Trilogy": [
+        "NS",
+        "PS4",
+        "XOne"
+    ],
+    "Need for Speed Rivals": [
+        "X360",
+        "PS3",
+        "PC",
+        "XOne",
+        "PS4"
     ],
     "Need for Speed: Most Wanted": [
         "XB",
@@ -577,6 +2856,14 @@
         "XBL",
         "PSN"
     ],
+    "Need for Speed: Shift": [
+        "PS3",
+        "PC",
+        "X360",
+        "PSP",
+        "PSN",
+        "XBL"
+    ],
     "Need for Speed: Undercover": [
         "PS3",
         "PS2",
@@ -587,23 +2874,373 @@
         "Wii",
         "PSN"
     ],
+    "Ni no Kuni II: Revenant Kingdom": [
+        "PS4",
+        "PC"
+    ],
+    "NieR Replicant ver.1.22474487139...": [
+        "PC",
+        "PS4",
+        "XOne"
+    ],
     "NieR: Automata": [
         "PS4",
         "PC"
     ],
+    "Nier": [
+        "X360",
+        "PS3",
+        "Series"
+    ],
+    "Nightmare Creatures": [
+        "N64",
+        "PS",
+        "PC"
+    ],
+    "Nights of Azure": [
+        "PSV",
+        "PS4",
+        "PS3",
+        "PSV",
+        "PS4",
+        "PC"
+    ],
+    "Ninja Gaiden 3": [
+        "X360",
+        "PS3"
+    ],
+    "Ninja Gaiden: Master Collection": [
+        "NS"
+    ],
+    "Nioh": [
+        "PS4",
+        "Series"
+    ],
+    "Nioh 2": [
+        "PS4"
+    ],
+    "Nobunaga's Ambition: Shinsei": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Nobunaga's Ambition: Sphere of Influence": [
+        "PS4",
+        "PC",
+        "PS3",
+        "PSV"
+    ],
+    "Nobunaga's Ambition: Taishi": [
+        "PS4",
+        "NS"
+    ],
+    "Octopath Traveler": [
+        "NS",
+        "PC"
+    ],
+    "Oddworld: Abe's Oddysee": [
+        "PS",
+        "PC",
+        "PSN",
+        "GB"
+    ],
+    "Oddworld: Stranger's Wrath HD": [
+        "PSN",
+        "PC"
+    ],
+    "Okami": [
+        "PS2",
+        "Wii",
+        "Series"
+    ],
+    "Okami HD": [
+        "PS3",
+        "PS4",
+        "XOne",
+        "PC",
+        "NS"
+    ],
+    "Omikron: The Nomad Soul": [
+        "DC",
+        "PC"
+    ],
+    "One Piece Odyssey": [
+        "XS",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "One Piece Unlimited World: Red": [
+        "3DS",
+        "PS3",
+        "PSV",
+        "WiiU"
+    ],
+    "One Piece: Pirate Warriors 2": [
+        "PSV",
+        "PS3"
+    ],
+    "One Piece: Pirate Warriors 3": [
+        "PSV",
+        "PS4",
+        "PS3",
+        "PC"
+    ],
+    "Outward": [
+        "PS4",
+        "PC",
+        "XOne",
+        "Linux",
+        "OSX"
+    ],
+    "Oxenfree": [
+        "XOne",
+        "NS",
+        "PC"
+    ],
+    "PGA Tour 2K21": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "PGA Tour 2K23": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Panzer General": [
+        "3DO",
+        "PC",
+        "PS"
+    ],
+    "Persona 4 Arena": [
+        "PS3",
+        "X360"
+    ],
+    "Persona 4 Arena Ultimax": [
+        "X360",
+        "PS3"
+    ],
     "Persona 5": [
         "PS3",
         "PS4"
+    ],
+    "Persona 5 Royal": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Persona 5 Strikers": [
+        "PS4",
+        "NS",
+        "PC"
+    ],
+    "Peter Jackson's King Kong: The Official Game of the Movie": [
+        "XB",
+        "DS",
+        "GC",
+        "PS2",
+        "PSP",
+        "X360",
+        "PC",
+        "PSN"
+    ],
+    "Phantasie": [
+        "Series"
+    ],
+    "Phantasmagoria": [
+        "PC"
+    ],
+    "Phoenix Wright: Ace Attorney Trilogy": [
+        "3DS",
+        "3DS",
+        "PS4",
+        "NS",
+        "XOne",
+        "PC"
+    ],
+    "Pirates! Gold": [
+        "PC",
+        "GEN"
+    ],
+    "Pitfall: The Mayan Adventure": [
+        "SNES",
+        "GBA",
+        "AJ",
+        "SCD",
+        "PC",
+        "VC",
+        "GEN",
+        "SNES",
+        "GBA",
+        "AJ",
+        "SCD",
+        "PC",
+        "VC",
+        "GEN"
+    ],
+    "PlayStation All-Stars Battle Royale": [
+        "PS3",
+        "PSV"
     ],
     "PlayerUnknown's Battlegrounds": [
         "PC",
         "XOne",
         "PS4"
     ],
+    "Pocky & Rocky Reshrined": [
+        "NS",
+        "PS4"
+    ],
+    "Police Quest: SWAT": [
+        "PC"
+    ],
+    "Pool of Radiance": [
+        "Series"
+    ],
+    "Pools of Darkness": [
+        "PC"
+    ],
     "Portal": [
         "PC",
         "OSX",
         "Series"
+    ],
+    "Prey": [
+        "X360",
+        "PC",
+        "XBL",
+        "Series"
+    ],
+    "Prey (2017)": [
+        "PC",
+        "XOne",
+        "PS4"
+    ],
+    "Prince of Persia": [
+        "SNES",
+        "GG",
+        "GB",
+        "SCD",
+        "GEN",
+        "MS",
+        "X360",
+        "PS3",
+        "PSN",
+        "NES",
+        "Series"
+    ],
+    "Prince of Persia (2008)": [
+        "PC",
+        "OSX",
+        "X360",
+        "PS3"
+    ],
+    "Prince of Persia 2: The Shadow and the Flame": [
+        "SNES",
+        "PC"
+    ],
+    "Prince of Persia: The Sands of Time": [
+        "XB",
+        "GC",
+        "PS2",
+        "GBA",
+        "PC"
+    ],
+    "Prince of Persia: The Two Thrones": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC"
+    ],
+    "Prince of Persia: Warrior Within": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC"
+    ],
+    "Psychonauts": [
+        "XB",
+        "PS2",
+        "PC",
+        "XBL"
+    ],
+    "Putt-Putt Joins the Parade": [
+        "3DO"
+    ],
+    "Puyo Puyo Tetris": [
+        "WiiU",
+        "PSV",
+        "PS3",
+        "3DS",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Quake": [
+        "N64",
+        "PC",
+        "SAT",
+        "Series",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Quake II": [
+        "N64",
+        "PC",
+        "PS"
+    ],
+    "Railroad Tycoon II": [
+        "PC",
+        "PS"
+    ],
+    "Rampage: Total Destruction": [
+        "GC",
+        "PS2",
+        "Wii"
+    ],
+    "Ratatouille": [
+        "DS",
+        "PSP",
+        "Wii",
+        "X360",
+        "GBA",
+        "GC",
+        "PS2",
+        "PS3",
+        "XB",
+        "PC"
+    ],
+    "Rayman 2: The Great Escape": [
+        "DC",
+        "N64",
+        "PS",
+        "PSN",
+        "PC"
+    ],
+    "Rayman 3: Hoodlum Havoc": [
+        "GC",
+        "PS2",
+        "XB",
+        "PC"
+    ],
+    "Rayman Legends": [
+        "WiiU",
+        "PS3",
+        "X360",
+        "PSV",
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Rayman Raving Rabbids: TV Party": [
+        "Wii",
+        "DS"
     ],
     "Red Dead Redemption": [
         "X360",
@@ -614,6 +3251,38 @@
     "Red Dead Redemption 2": [
         "PS4",
         "XOne"
+    ],
+    "Red Dead Redemption: Undead Nightmare": [
+        "PSN",
+        "XBL",
+        "PS3",
+        "X360",
+        "PSN",
+        "XBL",
+        "PS3",
+        "X360"
+    ],
+    "Red Faction: Guerrilla": [
+        "PC",
+        "PS3",
+        "X360",
+        "PC",
+        "PSN"
+    ],
+    "Remember Me": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Resident Evil": [
+        "PS",
+        "SAT",
+        "GC",
+        "PC",
+        "DS",
+        "PS4",
+        "XOne",
+        "Series"
     ],
     "Resident Evil 4": [
         "GC",
@@ -627,6 +3296,12 @@
         "S32X",
         "PS4",
         "XOne"
+    ],
+    "Resident Evil 4 (2023)": [
+        "XS",
+        "PS5",
+        "PC",
+        "PS4"
     ],
     "Resident Evil 5": [
         "PS3",
@@ -642,11 +3317,90 @@
         "XOne",
         "PS4"
     ],
+    "Resident Evil Re:Verse": [
+        "PC",
+        "XOne",
+        "XS",
+        "PS4",
+        "PS5"
+    ],
+    "Resident Evil Zero": [
+        "GC",
+        "X360",
+        "PS3",
+        "PC",
+        "PS4",
+        "XOne"
+    ],
+    "Resident Evil: Operation Raccoon City": [
+        "PS3",
+        "X360"
+    ],
+    "Resident Evil: Revelations": [
+        "3DS",
+        "WiiU",
+        "PS3",
+        "X360",
+        "PC",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Resident Evil: Revelations 2": [
+        "XOne",
+        "PS4",
+        "PS3",
+        "X360",
+        "PC",
+        "PSV",
+        "NS"
+    ],
+    "Return to Zork": [
+        "PC",
+        "PCFX",
+        "PS",
+        "SAT"
+    ],
+    "Ripper": [
+        "PC"
+    ],
     "Rise of the Tomb Raider": [
         "PC",
         "PS4",
         "XOne",
         "X360"
+    ],
+    "Risk of Rain": [
+        "PSV",
+        "PC",
+        "PS4",
+        "Series"
+    ],
+    "Roadwar 2000": [
+        "PC"
+    ],
+    "Rock Band": [
+        "X360",
+        "PS3",
+        "PS2",
+        "Wii",
+        "Series"
+    ],
+    "Rock Band 2": [
+        "PS2",
+        "Wii",
+        "X360",
+        "PS3",
+        "PS2",
+        "Wii",
+        "X360",
+        "PS3"
+    ],
+    "Rock Band 3": [
+        "PS3",
+        "X360",
+        "Wii",
+        "DS"
     ],
     "Rocket League": [
         "PS4",
@@ -655,12 +3409,361 @@
         "NS",
         "Series"
     ],
+    "Romance of the Three Kingdoms XIII": [
+        "PS4",
+        "PS3",
+        "PC",
+        "PS3",
+        "PS4",
+        "NS"
+    ],
+    "Romance of the Three Kingdoms XIV: Diplomacy and Strategy Expansion Pack": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Romancing SaGa 2": [
+        "SNES",
+        "VC",
+        "NS",
+        "PSV"
+    ],
+    "Root Letter": [
+        "PSV",
+        "PS4",
+        "Series"
+    ],
     "Rust": [
         "OSX",
         "PC",
         "Linux",
         "XOne",
         "PS4"
+    ],
+    "SD Gundam G Generation Wars": [
+        "Wii",
+        "PS2"
+    ],
+    "Sacred 2: Fallen Angel": [
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "Safecracker": [
+        "Int"
+    ],
+    "Saints Row 2": [
+        "X360",
+        "PS3",
+        "PC",
+        "XBL",
+        "PSN"
+    ],
+    "Saints Row IV": [
+        "PC",
+        "X360",
+        "PS3"
+    ],
+    "Saints Row: The Third": [
+        "PS3",
+        "PC",
+        "X360"
+    ],
+    "Sakuna: Of Rice and Ruin": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Salt and Sanctuary": [
+        "PSV",
+        "PS4",
+        "NS",
+        "PC"
+    ],
+    "Samurai Maiden": [
+        "PS5",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Samurai Warriors 4": [
+        "PS3",
+        "PSV",
+        "PS4"
+    ],
+    "Samurai Warriors 4-II": [
+        "PSV",
+        "PS4",
+        "PS3",
+        "PC"
+    ],
+    "Samurai Warriors 4: Empires": [
+        "PSV",
+        "PS4",
+        "PS3"
+    ],
+    "Samurai Warriors 5": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Scarface: The World Is Yours": [
+        "XB",
+        "PS2",
+        "Wii",
+        "PC"
+    ],
+    "Scarlet Nexus": [
+        "XS",
+        "PS5",
+        "PS4",
+        "PC",
+        "XS",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Secret of the Silver Blades": [
+        "PC"
+    ],
+    "Sekiro: Shadows Die Twice": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Senran Kagura Shinovi Versus": [
+        "PSV",
+        "PC"
+    ],
+    "Senran Kagura: Estival Versus": [
+        "PS4",
+        "PSV"
+    ],
+    "Sewer Shark": [
+        "3DO",
+        "SCD"
+    ],
+    "Shadow of the Tomb Raider": [
+        "PC",
+        "PS4",
+        "XOne"
+    ],
+    "Shanghai": [
+        "GB",
+        "PCE",
+        "Lynx",
+        "MS",
+        "DS",
+        "PSP",
+        "PSN",
+        "NES",
+        "Wii"
+    ],
+    "Shattered Steel": [
+        "PC"
+    ],
+    "Shaun White Snowboarding": [
+        "PC",
+        "PS3",
+        "X360",
+        "DS",
+        "PS2",
+        "PSP",
+        "XBL"
+    ],
+    "Shin Megami Tensei III: Nocturne HD Remaster": [
+        "NS",
+        "PS4",
+        "PC"
+    ],
+    "Shovel Knight": [
+        "WiiU",
+        "3DS",
+        "PC",
+        "OSX",
+        "Linux",
+        "PSV",
+        "PS4",
+        "PS3",
+        "XOne",
+        "NS",
+        "Series"
+    ],
+    "Shovel Knight Dig": [
+        "XS",
+        "PS5",
+        "PC",
+        "NS"
+    ],
+    "SimCity": [
+        "SNES",
+        "VC",
+        "PC",
+        "Series"
+    ],
+    "SimCity 2000": [
+        "PS",
+        "SAT",
+        "SNES",
+        "PC",
+        "GBA",
+        "N64",
+        "PSN"
+    ],
+    "Slime Rancher": [
+        "PC",
+        "OSX",
+        "PS4",
+        "Linux",
+        "XOne",
+        "Series"
+    ],
+    "Slime Rancher 2": [
+        "XS",
+        "PC"
+    ],
+    "Sniper Elite V2": [
+        "X360",
+        "PS3",
+        "WiiU",
+        "PC"
+    ],
+    "SnowRunner": [
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Sonic & All-Stars Racing Transformed": [
+        "PC",
+        "PSV",
+        "PS3"
+    ],
+    "Sonic & Sega All-Stars Racing": [
+        "Series"
+    ],
+    "Sonic Adventure": [
+        "DC",
+        "XBL",
+        "PSN"
+    ],
+    "Sonic Colors": [
+        "DS",
+        "Wii"
+    ],
+    "Sonic Frontiers": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "NS",
+        "PC"
+    ],
+    "Sonic Generations": [
+        "PS3",
+        "X360",
+        "3DS"
+    ],
+    "Sonic Heroes": [
+        "GC",
+        "PS2",
+        "XB",
+        "PC"
+    ],
+    "Sonic Lost World": [
+        "WiiU",
+        "3DS",
+        "PC"
+    ],
+    "Sonic Unleashed": [
+        "PS3",
+        "X360",
+        "Wii",
+        "PS2",
+        "XBL"
+    ],
+    "Sonic the Hedgehog (2006)": [
+        "X360",
+        "PS3"
+    ],
+    "Soul Reaver 2": [
+        "PS2",
+        "PC"
+    ],
+    "SoulCalibur": [
+        "DC",
+        "XBL",
+        "Arc",
+        "And",
+        "Series"
+    ],
+    "SoulCalibur IV": [
+        "X360",
+        "PS3"
+    ],
+    "SoulCalibur V": [
+        "PS3",
+        "X360"
+    ],
+    "SoulCalibur VI": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "South Park: The Stick of Truth": [
+        "X360",
+        "PS3",
+        "PC",
+        "PS4",
+        "XOne",
+        "NS"
+    ],
+    "Spider-Man 2": [
+        "XB",
+        "DS",
+        "GC",
+        "PS2",
+        "PSP",
+        "NGage",
+        "GBA",
+        "PC",
+        "XB",
+        "DS",
+        "GC",
+        "PS2",
+        "PSP",
+        "NGage",
+        "GBA",
+        "PC"
+    ],
+    "Spidersaurs": [
+        "iOS",
+        "PC",
+        "PS4",
+        "PS5",
+        "NS",
+        "XOne",
+        "XS"
+    ],
+    "Spintires: MudRunner": [
+        "PC",
+        "PS4",
+        "XOne"
+    ],
+    "Spiritfarer": [
+        "XOne",
+        "PC",
+        "NS",
+        "PS4"
+    ],
+    "Star Control": [
+        "PC",
+        "GEN"
+    ],
+    "Star Control 3": [
+        "PC"
+    ],
+    "Star Trek: Starfleet Academy": [
+        "PC"
     ],
     "Star Wars Battlefront (2015)": [
         "XOne",
@@ -671,6 +3774,17 @@
         "XOne",
         "PC",
         "PS4"
+    ],
+    "Star Wars: Battlefront": [
+        "Series"
+    ],
+    "Star Wars: Battlefront II": [
+        "PSN"
+    ],
+    "Star Wars: Knights of the Old Republic": [
+        "XB",
+        "PC",
+        "Series"
     ],
     "Star Wars: The Force Unleashed": [
         "Wii",
@@ -691,6 +3805,30 @@
         "PSV",
         "Series"
     ],
+    "Still Life": [
+        "XB",
+        "PC",
+        "Series"
+    ],
+    "Stonekeep": [
+        "PC"
+    ],
+    "Story of Seasons: Pioneers of Olive Town": [
+        "NS",
+        "PC"
+    ],
+    "Street Fighter 30th Anniversary Collection": [
+        "NS",
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Street Fighter 6": [
+        "XS",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
     "Street Fighter II": [
         "GB"
     ],
@@ -704,11 +3842,200 @@
         "PS4",
         "PC"
     ],
+    "Street Fighter X Tekken": [
+        "PSV",
+        "PC"
+    ],
+    "Streets of Rage 4": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Strider": [
+        "NES",
+        "GEN",
+        "MS",
+        "PC"
+    ],
+    "Striker": [
+        "GG"
+    ],
+    "Stronghold": [
+        "PC",
+        "2600"
+    ],
+    "Subnautica": [
+        "PC",
+        "XOne",
+        "PS4",
+        "Series"
+    ],
+    "Super Bomberman R": [
+        "NS",
+        "PS4",
+        "XOne",
+        "NS",
+        "PS4",
+        "XOne"
+    ],
+    "Super Street Fighter IV: Arcade Edition": [
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Superhot VR": [
+        "PS4",
+        "PC"
+    ],
+    "Syberia": [
+        "XB",
+        "PC",
+        "DS",
+        "PS2",
+        "NS",
+        "Series"
+    ],
+    "Syberia II": [
+        "XB",
+        "PC",
+        "PS2"
+    ],
+    "TMNT": [
+        "Wii",
+        "X360",
+        "PS2",
+        "DS",
+        "GBA",
+        "GC",
+        "PC",
+        "PSP",
+        "PSN",
+        "XBL"
+    ],
+    "TNA iMPACT!": [
+        "PS2",
+        "Wii",
+        "X360",
+        "PS3"
+    ],
+    "Taiko Risshiden V DX": [
+        "PC",
+        "NS"
+    ],
+    "Tales of Arise": [
+        "XS",
+        "PS5"
+    ],
+    "Tales of Berseria": [
+        "PC",
+        "PS4",
+        "PS3"
+    ],
+    "Tales of Destiny": [
+        "PS",
+        "PS2"
+    ],
+    "Tales of Destiny 2": [
+        "PS2",
+        "PSP"
+    ],
+    "Tales of Eternia": [
+        "PSP"
+    ],
+    "Tales of Phantasia": [
+        "PS",
+        "SNES",
+        "GBA"
+    ],
+    "Tales of Rebirth": [
+        "PS2",
+        "PSP"
+    ],
+    "Tales of Symphonia": [
+        "GC",
+        "PS2"
+    ],
+    "Tales of Vesperia": [
+        "X360",
+        "PS3"
+    ],
+    "Tales of Vesperia: Definitive Edition": [
+        "PS4",
+        "XOne",
+        "NS",
+        "PC"
+    ],
+    "Tales of the Abyss": [
+        "PS2",
+        "3DS"
+    ],
+    "Teenage Mutant Ninja Turtles": [
+        "GC",
+        "PS2",
+        "XB",
+        "NES",
+        "VC",
+        "PC",
+        "GBA",
+        "And",
+        "Series"
+    ],
+    "Teenage Mutant Ninja Turtles 3: Mutant Nightmare": [
+        "GC",
+        "DS",
+        "PS2",
+        "XB"
+    ],
+    "Teenage Mutant Ninja Turtles: Shredder's Revenge": [
+        "XOne",
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Teenage Mutant Ninja Turtles: The Cowabunga Collection": [
+        "XS",
+        "XOne",
+        "PS5",
+        "PS4",
+        "PC"
+    ],
+    "Tekken 6": [
+        "PS3",
+        "X360",
+        "PSP",
+        "PSN"
+    ],
     "Tekken 7": [
         "Arc",
         "PS4",
         "PC",
         "XOne"
+    ],
+    "Tekken 8": [
+        "XS",
+        "PS5",
+        "PC"
+    ],
+    "Tekken Tag Tournament 2": [
+        "PS3",
+        "WiiU",
+        "X360"
+    ],
+    "Tennis": [
+        "GB",
+        "NES",
+        "PS",
+        "VC",
+        "2600",
+        "Int",
+        "NS"
+    ],
+    "Tennis World Tour": [
+        "PS4",
+        "XOne",
+        "PC",
+        "NS"
     ],
     "Terraria": [
         "PC",
@@ -723,6 +4050,63 @@
         "NS",
         "Series"
     ],
+    "Test Drive 4": [
+        "PS",
+        "PC"
+    ],
+    "Test Drive Unlimited 2": [
+        "X360",
+        "PC",
+        "PS3"
+    ],
+    "Test Drive: Off-Road": [
+        "PC"
+    ],
+    "The Ancient Art of War at Sea": [
+        "PC"
+    ],
+    "The Bard's Tale": [
+        "XB",
+        "PS2",
+        "NES",
+        "PC"
+    ],
+    "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe": [
+        "GC",
+        "DS",
+        "PS2",
+        "XB",
+        "GBA",
+        "GC",
+        "DS",
+        "PS2",
+        "XB",
+        "GBA"
+    ],
+    "The Crew": [
+        "PC",
+        "XOne",
+        "PS4",
+        "X360"
+    ],
+    "The Dark Queen of Krynn": [
+        "PC"
+    ],
+    "The Darkness": [
+        "PS3",
+        "X360"
+    ],
+    "The Elder Scrolls III: Morrowind": [
+        "XB",
+        "PC"
+    ],
+    "The Elder Scrolls IV: Oblivion": [
+        "X360",
+        "PS3",
+        "PC",
+        "PSP",
+        "XBL"
+    ],
     "The Elder Scrolls Online": [
         "PC",
         "OSX"
@@ -733,6 +4117,57 @@
         "PS3",
         "NS"
     ],
+    "The Escapists": [
+        "PC",
+        "XOne",
+        "PS4",
+        "Series"
+    ],
+    "The Fantastic Adventures of Dizzy": [
+        "NES"
+    ],
+    "The Godfather": [
+        "PS2",
+        "PC"
+    ],
+    "The Golden Compass": [
+        "DS",
+        "PS2",
+        "PS3",
+        "PSP",
+        "Wii",
+        "X360",
+        "PC"
+    ],
+    "The Great Ace Attorney Chronicles": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "The Idolmaster: Starlit Season": [
+        "PS4",
+        "PC"
+    ],
+    "The Incredible Hulk": [
+        "GG",
+        "SNES",
+        "PC",
+        "DS",
+        "X360",
+        "PS2",
+        "PS3",
+        "Wii",
+        "GBA",
+        "MS",
+        "GEN"
+    ],
+    "The Last Express": [
+        "PC"
+    ],
+    "The Last of Us Part I": [
+        "PS5",
+        "PC"
+    ],
     "The Legend of Zelda: Breath of the Wild": [
         "WiiU",
         "NS"
@@ -741,10 +4176,75 @@
         "GC",
         "Wii"
     ],
+    "The Little Mermaid": [
+        "NES",
+        "GB"
+    ],
+    "The Long Dark": [
+        "PC",
+        "Linux",
+        "OSX",
+        "PS4",
+        "XOne",
+        "NS"
+    ],
+    "The Lord of the Rings: The Fellowship of the Ring": [
+        "XB",
+        "PS2",
+        "GBA",
+        "PC"
+    ],
+    "The Lord of the Rings: The Third Age": [
+        "GC",
+        "PS2",
+        "GBA",
+        "GC",
+        "PS2",
+        "GBA"
+    ],
+    "The Lord of the Rings: The Two Towers": [
+        "XB",
+        "GC",
+        "PS2",
+        "GBA"
+    ],
+    "The Operative: No One Lives Forever": [
+        "PS2",
+        "PC"
+    ],
+    "The Outer Worlds": [
+        "Series"
+    ],
+    "The Pagemaster": [
+        "SNES",
+        "GB",
+        "GEN"
+    ],
+    "The Punisher": [
+        "XB",
+        "PS2",
+        "GEN",
+        "PC",
+        "NES"
+    ],
     "The Room": [
         "PC",
         "NS",
         "Series"
+    ],
+    "The Room Three": [
+        "PC"
+    ],
+    "The Room Two": [
+        "PC"
+    ],
+    "The Simpsons Game": [
+        "Wii",
+        "X360",
+        "PS2",
+        "PS3",
+        "DS",
+        "PSP"
     ],
     "The Sims": [
         "XB",
@@ -764,6 +4264,31 @@
         "WinP",
         "And"
     ],
+    "The Thing": [
+        "XB",
+        "PS2",
+        "PC"
+    ],
+    "The Urbz: Sims in the City": [
+        "GBA",
+        "GC",
+        "PS2",
+        "XB"
+    ],
+    "The Vanishing of Ethan Carter": [
+        "PC",
+        "PS4",
+        "XOne",
+        "NS",
+        "PC",
+        "PS4",
+        "XOne",
+        "NS"
+    ],
+    "The Witcher 2: Assassins of Kings": [
+        "PC",
+        "X360"
+    ],
     "The Witcher 3: Wild Hunt": [
         "XOne",
         "PS4",
@@ -781,15 +4306,119 @@
         "PC",
         "PSN"
     ],
+    "Thexder": [
+        "PC"
+    ],
+    "This War of Mine": [
+        "OSX",
+        "PC",
+        "Linux",
+        "And",
+        "XOne",
+        "PS4",
+        "Series"
+    ],
+    "Threshold": [
+        "2600"
+    ],
+    "Time Commando": [
+        "PS",
+        "SAT",
+        "PC"
+    ],
     "Titanfall": [
         "XOne",
         "X360",
         "PC"
     ],
+    "ToeJam & Earl: Back in the Groove": [
+        "NS",
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Tom Clancy's Ghost Recon": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC",
+        "Wii",
+        "Series"
+    ],
+    "Tom Clancy's Ghost Recon 2": [
+        "XB",
+        "GC",
+        "PS2"
+    ],
+    "Tom Clancy's Ghost Recon Advanced Warfighter": [
+        "X360",
+        "XB",
+        "XBL"
+    ],
     "Tom Clancy's Ghost Recon Wildlands": [
         "PC",
         "XOne",
         "PS4"
+    ],
+    "Tom Clancy's HAWX": [
+        "PC",
+        "PS3",
+        "Wii",
+        "X360",
+        "XBL"
+    ],
+    "Tom Clancy's Rainbow Six 3": [
+        "XB",
+        "GC",
+        "PS2"
+    ],
+    "Tom Clancy's Rainbow Six: Vegas": [
+        "X360",
+        "PSP",
+        "PS3",
+        "PSN"
+    ],
+    "Tom Clancy's Rainbow Six: Vegas 2": [
+        "PS3",
+        "PC",
+        "X360",
+        "XBL",
+        "PSN"
+    ],
+    "Tom Clancy's Splinter Cell": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC",
+        "GBA",
+        "Series"
+    ],
+    "Tom Clancy's Splinter Cell: Blacklist": [
+        "X360",
+        "PS3",
+        "PC",
+        "WiiU"
+    ],
+    "Tom Clancy's Splinter Cell: Chaos Theory": [
+        "XB",
+        "DS",
+        "GC",
+        "PS2",
+        "NGage",
+        "PC",
+        "XBL"
+    ],
+    "Tom Clancy's Splinter Cell: Conviction": [
+        "X360",
+        "DS",
+        "PC"
+    ],
+    "Tom Clancy's Splinter Cell: Pandora Tomorrow": [
+        "XB",
+        "GC",
+        "PS2",
+        "PC",
+        "GBA"
     ],
     "Tom Clancy's The Division": [
         "XOne",
@@ -813,10 +4442,337 @@
         "X360",
         "PC"
     ],
+    "Tomb Raider Chronicles": [
+        "DC",
+        "PS",
+        "PC",
+        "PSN"
+    ],
     "Tomb Raider II": [
         "PS",
         "PC",
         "PSN"
+    ],
+    "Tomb Raider III": [
+        "PSN"
+    ],
+    "Tomb Raider: Anniversary": [
+        "PS2",
+        "PSP",
+        "X360",
+        "Wii",
+        "PC",
+        "PSN",
+        "XBL"
+    ],
+    "Tomb Raider: Legend": [
+        "XB",
+        "PS2",
+        "DS",
+        "GC",
+        "PSP",
+        "X360",
+        "PC",
+        "GBA",
+        "XBL",
+        "PSN"
+    ],
+    "Tomb Raider: The Last Revelation": [
+        "DC",
+        "PC",
+        "PS",
+        "PSN"
+    ],
+    "Tomb Raider: Underworld": [
+        "PS3",
+        "PC",
+        "X360",
+        "Wii",
+        "DS",
+        "PS2",
+        "PSN"
+    ],
+    "Tony Hawk's Pro Skater 1 + 2": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Torchlight": [
+        "PC",
+        "XBL",
+        "Series"
+    ],
+    "Torchlight II": [
+        "PC",
+        "XOne",
+        "PS4",
+        "NS"
+    ],
+    "Torin's Passage": [
+        "PC"
+    ],
+    "Touhou Luna Nights": [
+        "PC",
+        "NS"
+    ],
+    "Toukiden 2": [
+        "PS4",
+        "PSV",
+        "PS3",
+        "PC"
+    ],
+    "Toukiden Kiwami": [
+        "PS4",
+        "PC"
+    ],
+    "Toukiden: The Age of Demons": [
+        "PSV",
+        "PSP",
+        "PS4"
+    ],
+    "Transistor": [
+        "PC",
+        "PS4",
+        "NS"
+    ],
+    "Trials Fusion": [
+        "PC",
+        "XOne",
+        "X360",
+        "PS4"
+    ],
+    "Trials of Mana": [
+        "NS",
+        "PC",
+        "PS4",
+        "NS",
+        "PC",
+        "PS4"
+    ],
+    "Triangle Strategy": [
+        "NS",
+        "PC"
+    ],
+    "Trine": [
+        "PSN",
+        "PC",
+        "PS3",
+        "Series"
+    ],
+    "Tropico": [
+        "PC"
+    ],
+    "Tropico 2: Pirate Cove": [
+        "PC"
+    ],
+    "Turok": [
+        "PS3",
+        "X360",
+        "PC",
+        "Series"
+    ],
+    "Twin Breaker: A Sacred Symbols Adventure": [
+        "PS4",
+        "PSV"
+    ],
+    "UFC 2009 Undisputed": [
+        "PS3",
+        "X360",
+        "XBL"
+    ],
+    "Ultima III: Exodus": [
+        "PC"
+    ],
+    "Ultima IV: Quest of the Avatar": [
+        "PC"
+    ],
+    "Ultima Underworld: The Stygian Abyss": [
+        "PC",
+        "PS"
+    ],
+    "Ultimate Marvel vs. Capcom 3": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Unpacking": [
+        "XOne",
+        "XS",
+        "XOne",
+        "XS"
+    ],
+    "Unreal Tournament": [
+        "DC",
+        "PC",
+        "PS2"
+    ],
+    "Untitled Goose Game": [
+        "NS",
+        "XOne",
+        "PS4",
+        "Series"
+    ],
+    "VA-11 HALL-A": [
+        "PC",
+        "PSV",
+        "Linux",
+        "OSX",
+        "NS",
+        "PS4"
+    ],
+    "Valkyria Chronicles": [
+        "PS3",
+        "PC",
+        "NS",
+        "Series"
+    ],
+    "Valkyria Chronicles 4": [
+        "NS",
+        "XOne",
+        "PS4",
+        "PC",
+        "NS",
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "Vampyr": [
+        "XOne",
+        "PC",
+        "PS4"
+    ],
+    "Vanquish": [
+        "PC",
+        "PS3",
+        "X360",
+        "PC"
+    ],
+    "Virtua Tennis 4": [
+        "PS3",
+        "X360",
+        "Wii"
+    ],
+    "Virtual Pool": [
+        "PS",
+        "PC"
+    ],
+    "WALL-E": [
+        "DS",
+        "PC",
+        "PS2",
+        "PS3",
+        "PSP",
+        "Wii",
+        "X360"
+    ],
+    "WWE '12": [
+        "Wii",
+        "X360",
+        "PS3"
+    ],
+    "WWE 2K15": [
+        "PS3",
+        "X360",
+        "XOne",
+        "PS4",
+        "PC"
+    ],
+    "WWE 2K17": [
+        "PS4",
+        "XOne",
+        "X360",
+        "PS3",
+        "PC"
+    ],
+    "WWE All Stars": [
+        "PS2",
+        "PS3",
+        "PSP",
+        "Wii",
+        "X360",
+        "PSN"
+    ],
+    "WWE SmackDown vs. Raw 2009": [
+        "DS",
+        "PS2",
+        "PS3",
+        "PSP",
+        "Wii",
+        "X360",
+        "PSN",
+        "XBL"
+    ],
+    "WWE SmackDown vs. Raw 2010": [
+        "X360",
+        "PS3",
+        "Wii",
+        "PS2",
+        "DS",
+        "PSP",
+        "PSN"
+    ],
+    "WWE SmackDown vs. Raw 2011": [
+        "PS2",
+        "PS3",
+        "X360",
+        "Wii",
+        "PSP",
+        "PSN"
+    ],
+    "WWE SmackDown! vs. Raw 2006": [
+        "PSP",
+        "PS2",
+        "PS2"
+    ],
+    "Wargame Construction Set": [
+        "PC"
+    ],
+    "Warhammer: Vermintide 2": [
+        "PC",
+        "PS4",
+        "XOne"
+    ],
+    "Warriors All-Stars": [
+        "PS4",
+        "PSV"
+    ],
+    "Warriors Orochi": [
+        "PS2",
+        "X360",
+        "PSP",
+        "PC",
+        "PSN",
+        "Series"
+    ],
+    "Warriors Orochi 2": [
+        "PS2",
+        "X360",
+        "PSP",
+        "PSN",
+        "PS3",
+        "X360"
+    ],
+    "Warriors Orochi 3": [
+        "PS3",
+        "X360",
+        "PSP",
+        "PSV",
+        "PS4",
+        "XOne",
+        "NS"
+    ],
+    "Warriors Orochi 4": [
+        "PC"
+    ],
+    "Wasteland": [
+        "PC"
+    ],
+    "Wasteland 2": [
+        "PC",
+        "Linux",
+        "OSX",
+        "PS4",
+        "XOne"
     ],
     "Watch Dogs": [
         "X360",
@@ -832,6 +4788,113 @@
         "PS4",
         "XOne"
     ],
+    "Wayne Gretzky Hockey": [
+        "NES"
+    ],
+    "Wet": [
+        "PS3",
+        "X360"
+    ],
+    "Wing Commander III: Heart of the Tiger": [
+        "PC",
+        "PS",
+        "3DO"
+    ],
+    "Winning Post 9 2022": [
+        "PS4",
+        "PC",
+        "NS"
+    ],
+    "Wizard of Legend": [
+        "PC"
+    ],
+    "Wizard's Crown": [
+        "PC"
+    ],
+    "Wizardry: Proving Grounds of the Mad Overlord": [
+        "GB",
+        "PC",
+        "NES",
+        "MS"
+    ],
+    "Wo Long: Fallen Dynasty": [
+        "XS",
+        "PC",
+        "PS5",
+        "PS4"
+    ],
+    "Wolfenstein 3D": [
+        "PC",
+        "3DO",
+        "GBA",
+        "AJ",
+        "XBL",
+        "PSN"
+    ],
+    "World War Z": [
+        "PS4",
+        "XOne",
+        "PC"
+    ],
+    "Worms": [
+        "PS",
+        "SAT",
+        "XBL",
+        "AJ",
+        "PC",
+        "PSN",
+        "GEN",
+        "SNES",
+        "GB",
+        "Series"
+    ],
+    "Worms: Open Warfare": [
+        "PSP",
+        "DS"
+    ],
+    "X-COM: UFO Defense": [
+        "PC",
+        "PS"
+    ],
+    "Yakuza 0": [
+        "XOne"
+    ],
+    "Yomawari: Lost in the Dark": [
+        "PS4",
+        "NS"
+    ],
+    "Yomawari: Night Alone": [
+        "PSV"
+    ],
+    "Yooka-Laylee": [
+        "OSX",
+        "PC",
+        "WiiU",
+        "XOne",
+        "PS4",
+        "Linux",
+        "NS",
+        "Series"
+    ],
+    "Yoshi": [
+        "GB",
+        "NES",
+        "GB",
+        "VC",
+        "Series"
+    ],
+    "Yoshi's Cookie": [
+        "GB",
+        "NES",
+        "VC",
+        "SNES"
+    ],
+    "Ys VIII: Lacrimosa of Dana": [
+        "PSV",
+        "PS4",
+        "PC",
+        "NS"
+    ],
     "Zuma": [
         "PSN",
         "PC",
@@ -841,5 +4904,9 @@
         "X360",
         "PS3",
         "Wii"
+    ],
+    "eBASEBALL Powerful Pro Baseball 2022": [
+        "PS4",
+        "NS"
     ]
 }
