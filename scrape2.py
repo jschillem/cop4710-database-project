@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from MetaCriticScraper import MetaCriticScraper
 import json
 import time
 
