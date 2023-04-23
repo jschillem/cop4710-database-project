@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-</head>
+{% extends 'base.html' %}
+{% block title %}
+Login
+{% endblock %}
+{% block content %}
 
-<body>
 <form action="{{ url_for('login') }}" method='POST' name="myform">
 
     {{form.hidden_tag()}}
@@ -17,5 +17,4 @@
 <br></br>
 <a href="{{ url_for('signup') }}"><p style = "text-align:center">Sign Up</p></a>
 
-</body>
-</html>
+{% endblock %}
