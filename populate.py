@@ -4,7 +4,6 @@ import json
 import sys
 from io import StringIO
 import sqlite3
-import math
 
 # Required file
 filename = 'MetaCriticScraper.py'
@@ -19,16 +18,15 @@ else:
 from MetaCriticScraper import MetaCriticScraper
 
 
-
 def get_data(game, console):
     url = f'https://www.metacritic.com/game/{console}/{game}'
     print(url)
 
     # Stifling prints
-    old_stdout = sys.stdout
+    old_stdout = sys.stdout                              # Redirect stdout to a buffer
     sys.stdout = mystdout = StringIO()
-    scraper = MetaCriticScraper(url)
-    sys.stdout = old_stdout
+    scraper = MetaCriticScraper(url)                # prints will be captured in the buffer
+    sys.stdout = old_stdout                               # Restore stdout
 
     if len(mystdout.getvalue()) == 0:
         print(f"No data found on {game}.")
@@ -181,15 +179,6 @@ for k, v in data.items():
 
         except Exception as e:
             print(f"Error: {str(e)}")
-    
-
-
-#
-# consoles = set()
-# for game in data:
-#     consoles.update(data[game])
-#
-# print(consoles)
 
 conn.close()
 f.close()
