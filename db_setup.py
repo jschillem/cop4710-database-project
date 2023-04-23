@@ -2,11 +2,16 @@ import sqlite3
 import os.path
 
 if os.path.isfile("videogame.db"):
-    print("File already exists.")
-    quit()
+    print("videogame db already exists.")
+
+if os.path.isfile("userData.db.db"):
+    print("userdata already exists.")
+
+conn = sqlite3.connect('userData.db')
+conn.execute('CREATE TABLE users (username TEXT, password TEXT, iscoach text, coach TEXT)')
+conn.close()
 
 conn = sqlite3.connect('videogame.db')
-
 try:
     conn.execute('''
         CREATE TABLE games(
