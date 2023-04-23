@@ -8,5 +8,8 @@
     gap: 8px;
   }
   
-  .sidebar { grid-area: sidebar; }
+  .sidebar {
+     grid-area: sidebar;
+     position: fixed;  
+    }
   .body { grid-area: body; }

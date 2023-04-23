@@ -4,6 +4,7 @@ Login
 {% endblock %}
 {% block content %}
 
+<div class="container position-relative mx-auto p-4">
 <form action="{{ url_for('login') }}" method='POST' name="myform">
 
     {{form.hidden_tag()}}
@@ -13,8 +14,6 @@ Login
     {{form.submit()}}
     </p>
 </form>
-
-<br></br>
-<a href="{{ url_for('signup') }}"><p style = "text-align:center">Sign Up</p></a>
-
+<a href="{{ url_for('signup') }}" class="rounded">Sign Up</a>
+</div>
 {% endblock %}

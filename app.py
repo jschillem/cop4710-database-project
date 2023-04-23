@@ -127,7 +127,13 @@ def show_games():
 
     def fetch():
         try:
-            cur.execute("SELECT id, name, release_date, game_score FROM games")
+            cur.execute('''
+                SELECT games.id, games.name, games.release_date, games.game_score, games.cover_img, developers.name AS developer_name
+                FROM games
+                JOIN developed_by ON games.id = developed_by.game
+                JOIN developers ON developed_by.developer = developers.id
+                ORDER BY games.game_score DESC;
+            ''')
             overdue = cur.fetchall()
             return overdue
         except:
