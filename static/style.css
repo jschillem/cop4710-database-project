@@ -10,6 +10,6 @@
   
   .sidebar {
      grid-area: sidebar;
-     position: fixed;  
+     position: fixed;
     }
   .body { grid-area: body; }

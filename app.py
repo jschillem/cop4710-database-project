@@ -1,48 +1,55 @@
 import requests
 from flask import Flask, render_template, request, session, redirect, url_for
-from flask_wtf import FlaskForm
-from wtforms.fields import DateField, StringField, TimeField
-
-from wtforms.validators import DataRequired
-from wtforms import validators, SubmitField
-
-from hashlib import pbkdf2_hmac
-
 import sqlite3 as sql
+import re
+
+descendingName = False
+descendingScore = False
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'any string works here'
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def show_games():
+    global descendingName
+    global descendingScore
     con = sql.connect('videogame.db')
     cur = con.cursor()
+    sql_filter = "ORDER BY games.game_score DESC;"
 
-    def fetch():
+    def fetch(sql_filter):
         try:
-            cur.execute('''
-                SELECT games.id, games.name, games.release_date, games.game_score, games.cover_img, developers.name AS developer_name
-                FROM games
-                JOIN developed_by ON games.id = developed_by.game
-                JOIN developers ON developed_by.developer = developers.id
-                ORDER BY games.game_score DESC;
-            ''')
+            print(sql_filter)
+
+            cur.execute(f'''
+                            SELECT games.id, games.name, games.release_date, games.game_score, games.cover_img, developers.name AS developer_name
+                            FROM games
+                            JOIN developed_by ON games.id = developed_by.game
+                            JOIN developers ON developed_by.developer = developers.id
+                            {sql_filter}
+                        ''')
             overdue = cur.fetchall()
             return overdue
         except:
             print("Error")  # Not found
 
-    if request.method == 'POST':
+    filter = request.args.get('filter')
+        
+    if filter:
 
-        for getid in request.form.getlist('check'):
-            print(getid)
-
-        o = fetch()
-        con.close()
-        return render_template('showGames.html', overdue=o)
+        if filter == 'name':
+            d = '' if not descendingName else 'DESC'
+            descendingName = not descendingName
+            sql_filter = f"ORDER BY games.name {d};"
+        # if filter == 'release':
+        #     sql_filter = "ORDER BY games.release_date DESC;"
+        if filter == 'score':
+            d = '' if not descendingScore else 'DESC'
+            descendingScore = not descendingScore
+            sql_filter = f"ORDER BY games.game_score {d};"
 
     # con.close()
-    o = fetch()
+    o = fetch(sql_filter)
     con.close()
     return render_template('showGames.html', overdue=o)
 
