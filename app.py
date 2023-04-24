@@ -15,43 +15,53 @@ def show_games():
     global descendingScore
     con = sql.connect('videogame.db')
     cur = con.cursor()
-    sql_filter = "ORDER BY games.game_score DESC;"
+    sql_sort = "ORDER BY games.game_score DESC;"
+    sql_genre = ""
 
-    def fetch(sql_filter):
+    def fetch(sql_sort, sql_genre):
         try:
-            print(sql_filter)
-
             cur.execute(f'''
                             SELECT games.id, games.name, games.release_date, games.game_score, games.cover_img, developers.name AS developer_name
                             FROM games
                             JOIN developed_by ON games.id = developed_by.game
                             JOIN developers ON developed_by.developer = developers.id
-                            {sql_filter}
+                            {sql_genre}
+                            {sql_sort}
                         ''')
             overdue = cur.fetchall()
             return overdue
         except:
             print("Error")  # Not found
 
-    filter = request.args.get('filter')
-        
-    if filter:
 
-        if filter == 'name':
+
+    sort = request.args.get('sort')
+        
+    if sort:
+        if sort == 'name':
             d = '' if not descendingName else 'DESC'
             descendingName = not descendingName
-            sql_filter = f"ORDER BY games.name {d};"
-        # if filter == 'release':
-        #     sql_filter = "ORDER BY games.release_date DESC;"
-        if filter == 'score':
+            sql_sort = f"ORDER BY games.name {d};"
+        elif sort == 'score':
             d = '' if not descendingScore else 'DESC'
             descendingScore = not descendingScore
-            sql_filter = f"ORDER BY games.game_score {d};"
+            sql_sort = f"ORDER BY games.game_score {d};"
 
-    # con.close()
-    o = fetch(sql_filter)
+    genre = request.args.get('genre')
+    if genre:
+        sql_genre = f'''JOIN game_has ON games.id = game_has.id
+                        JOIN characteristics ON characteristics.data = game_has.characteristic
+                        WHERE characteristics.data = \'{genre}\''''
+
+    o = fetch(sql_sort, sql_genre)
+    try:
+        cur.execute("SELECT data FROM characteristics");
+        genres = cur.fetchall()
+    except:
+        print("Error")
+
     con.close()
-    return render_template('showGames.html', overdue=o)
+    return render_template('showGames.html', overdue=o, genres=genres)
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)
