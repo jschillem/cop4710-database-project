@@ -33,8 +33,6 @@ def show_games():
         except:
             print("Error")  # Not found
 
-
-
     sort = request.args.get('sort')
         
     if sort:
@@ -149,6 +147,18 @@ def recommend_game():
 
     con.close()
 
+
+
+@app.route('/entry/<int:entry_id>', methods=['GET'])
+def entry(entry_id):
+    conn = sql.connect('videogame.db')
+    cur = conn.cursor()
+
+    cur.execute(f'''SELECT games.name FROM games WHERE id = {entry_id};''')
+    entry = cur.fetchone()[0]
+    print(entry)
+    conn.close()
+    return render_template('entry.html', entry=entry)
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)
