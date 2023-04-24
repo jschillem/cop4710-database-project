@@ -5,16 +5,20 @@ Games
 {% block content %}
 
 <div class="container-fluid">
-	<div class="row">
-	  <div class="col-12 text-center mt-4">
-		<h1>Video Game Database</h1>
-		<div class="text-secondary">Created by Justin Schilleman & Brandon Basch</div>
-	  </div>
-	</div>
-	<div class="row justify-content-end mr-4 mb-4">
-	  <div class="col-auto">
-		<a href="{{ url_for('recommend_game') }}" class="m-3 btn btn-primary btn-lg text-light">Recommendation Engine</a>
-	  </div>
+  <div class="row">
+    <div class="col-12 text-center mt-4">
+      <h1>Video Game Database</h1>
+      <div class="text-secondary">Created by Justin Schilleman & Brandon Basch</div>
+    </div>
+  </div>
+  <div class="row justify-content-end mr-4 mb-4">
+    <div class="col-auto">
+      <a href="" class="m-3 btn btn-primary btn-lg text-light d-block">Update Game</a>
+      <a href="{{ url_for('add_game') }}" class="m-3 btn btn-primary btn-lg text-light d-block">Add Game</a>
+      <a href="{{ url_for('recommend_game') }}" class="mt-3 mx-3 btn btn-primary btn-lg text-light d-block">Recommendation Engine</a>
+    </div>
+  </div>
+  
 	</div>
   
 <section class="layout">
