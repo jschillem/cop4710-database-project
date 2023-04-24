@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form action="{{ url_for('recommend_game') }}" method="POST">
+
+    <label for="selection_a">Game Name:</label>
+    <select id="selection_a" name="selection_a">
+        <option value="">--Select a Game--</option>
+        {% for game in games %}
+        <option value="{{ game }}">{{ game }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="selection_b">Game Name:</label>
+    <select id="selection_b" name="selection_b">
+        <option value="">--Select a Game--</option>
+        {% for game in games %}
+        <option value="{{ game }}">{{ game }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="selection_c">Game Name:</label>
+    <select id="selection_c" name="selection_c">
+        <option value="">--Select a Game--</option>
+        {% for game in games %}
+        <option value="{{ game }}">{{ game }}</option>
+        {% endfor %}
+    </select>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
