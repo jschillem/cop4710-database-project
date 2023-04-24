@@ -17,6 +17,7 @@ def show_games():
     cur = con.cursor()
     sql_sort = "ORDER BY games.game_score DESC;"
     sql_genre = ""
+    sql_name = ""
 
     def fetch(sql_sort, sql_genre):
         try:
@@ -25,11 +26,14 @@ def show_games():
                             FROM games
                             JOIN developed_by ON games.id = developed_by.game
                             JOIN developers ON developed_by.developer = developers.id
+                            {sql_name}
                             {sql_genre}
                             {sql_sort}
                         ''')
             overdue = cur.fetchall()
+
             return overdue
+
         except:
             print("Error")  # Not found
 
@@ -50,10 +54,15 @@ def show_games():
         sql_genre = f'''JOIN game_has ON games.id = game_has.id
                         JOIN characteristics ON characteristics.data = game_has.characteristic
                         WHERE characteristics.data = \'{genre}\''''
+        
+    name = request.args.get('name')
+    if name:
+        sql_name = f"WHERE LOWER(games.name) LIKE '%{name}%'"
 
     o = fetch(sql_sort, sql_genre)
+
     try:
-        cur.execute("SELECT data FROM characteristics");
+        cur.execute("SELECT data FROM characteristics;");
         genres = cur.fetchall()
     except:
         print("Error")

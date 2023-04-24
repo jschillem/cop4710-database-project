@@ -22,13 +22,18 @@ Games
     <h3 class="text-center"><u>Genre</u></h3>
     <form>
       {% for item in genres %}
-      <input type="radio" id="{{item[0]}}" name="genre" value="{{item[0]}}">
+      <input type="radio" id="{{item[0]}}" name="genre" value="{{item[0]}}"{%if request.args.get('genre') == item[0] %} checked {% endif %}>
       <label class="sidebar-text" for="{{item[0]}}">{{item[0]}}</label><br>
       {% endfor %}
       <input class="btn btn-primary m-3" type="submit" value="Apply">
     </form>
   </div>
   <div class="body">
+    <form class="d-flex justify-content-end mt-4 mx-4">
+
+      <input class="form-control me-2" name="name" type="search" placeholder="Search By Name" value="{%if request.args.get('name') %}{{request.args.get('name')}}{% endif %}">
+      <button class="btn btn-primary" type="submit">Apply</button>
+    </form>
     <table id="mytable" class="table table-striped table-hover">
       <thead>
         <tr>
@@ -37,7 +42,7 @@ Games
             {% if not request.args.get('sort') %}
               {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}&sort=name
             {% elif request.args.get('sort') == 'score' %}
-            {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode|replace('sort=score', 'sort=name') }}
+              {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode|replace('sort=score', 'sort=name') }}
             {% else %}
               {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}
             {% endif %}
@@ -47,7 +52,7 @@ Games
             {% if not request.args.get('sort') %}
               {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}&sort=score
             {% elif request.args.get('sort') == 'name' %}
-            {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode|replace('sort=name', 'sort=score') }}
+              {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode|replace('sort=name', 'sort=score') }}
             {% else %}
               {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}
             {% endif %}
