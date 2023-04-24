@@ -70,29 +70,8 @@ def show_games():
     con.close()
     return render_template('showGames.html', overdue=o, genres=genres)
 
-
 @app.route('/recommend', methods=['GET', 'POST'])
 def recommend_game():
-    '''
-    Publishers will have a score
-    Avg of all their games
-
-    Take 3 games ppl choose
-    And avg their scores
-
-    If they all have same genre
-    recommend that genre obviously
-    Or recommend genre of the highest rated of the 3 games
-
-    Find a publisher with that avg score and
-    If they have game of genre recommend highest scored
-    If they don’t
-    Next publisher
-
-    Must be on one of the consoles of the recommended games
-    '''
-
-
     con = sql.connect('videogame.db')
     cur = con.cursor()
 
@@ -110,15 +89,23 @@ def recommend_game():
             selection_b = request.form['selection_b']
             selection_c = request.form['selection_c']
 
-            score_a = cur.execute(f'''SELECT game_score FROM games WHERE name = '{selection_a}';''').fetchone()[0]
-            name_scores[selection_a] = score_a
-            score_b = cur.execute(f'''SELECT game_score FROM games WHERE name = '{selection_b}';''').fetchone()[0]
-            name_scores[selection_b] = score_b
-            score_c = cur.execute(f'''SELECT game_score FROM games WHERE name = '{selection_c}';''').fetchone()[0]
-            name_scores[selection_c] = score_c
+            score_a = cur.execute(f'''SELECT id, game_score FROM games WHERE name = '{selection_a}';''').fetchone()
+            name_scores[selection_a] = score_a[1]
+            score_b = cur.execute(f'''SELECT id, game_score FROM games WHERE name = '{selection_b}';''').fetchone()
+            name_scores[selection_b] = score_b[1]
+            score_c = cur.execute(f'''SELECT id, game_score FROM games WHERE name = '{selection_c}';''').fetchone()
+            name_scores[selection_c] = score_c[1]
+            print(score_a[0], score_b[0], score_c[0])
+
+            # get platforms
+            cur.execute(f'''SELECT platforms.full_name
+                            FROM supported_on
+                            JOIN platforms ON supported_on.platform = platforms.name
+                            WHERE supported_on.game in {score_a[0], score_b[0], score_c[0]};''')
+            platforms = tuple(set([row[0] for row in cur.fetchall()]))
 
             # Avg scoring of the 3 games
-            avg_score = (score_a + score_b + score_c) / 3
+            avg_score = (score_a[1] + score_b[1] + score_c[1]) / 3
 
             # Highest scoring game for genre selection
             highest_score_name = max(name_scores.items(), key=lambda x: x[1])[0]
@@ -135,20 +122,21 @@ def recommend_game():
             print(avg_score)
 
             # Find closest publisher match that has game of genre
+            # Make sure the game ISNT one of the 3
+            # Abs value used to get closest match
             cur.execute(f'''
                             SELECT games.id, publisher, AVG(game_score) AS avg_score
                             FROM games
                             WHERE publisher IN (SELECT DISTINCT publisher FROM ({joined_table} WHERE characteristics.data = '{highest_score_genre}') )
+                            AND games.name NOT IN ('{selection_a}', '{selection_b}', '{selection_c}')
                             GROUP BY publisher
                             ORDER BY ABS(avg_score - {avg_score}) LIMIT 1;''')
 
-            closest_publisher = cur.fetchone()
-            print(closest_publisher)
-            entry_id = closest_publisher[0]
-
-            # Make sure the game ISNT one of the 3
+            closest_game = cur.fetchone()
+            print(closest_game)
+            entry_id = closest_game[0]
             # Make sure the game is on one of the consoles of the 3 games
-            # Make a selection
+            # None case
 
         except:
             print("Error")
@@ -157,8 +145,6 @@ def recommend_game():
 
 
     con.close()
-
-
 
 @app.route('/entry/<int:entry_id>', methods=['GET'])
 def entry(entry_id):
@@ -184,6 +170,23 @@ def entry(entry_id):
     print(entry)
     conn.close()
     return render_template('entry.html', entry=entry, platforms=platforms)
+
+@app.route('/addGame', methods=['GET', 'POST'])
+def add_game():
+    if request.method == 'GET':
+        return render_template('addGame.html')
+
+    if request.method == 'POST':
+        link = request.form['link']
+        print(link)
+
+        #Use scraper
+        # Get platforms
+
+        # return the new entry
+        return render_template('entry.html', entry=entry)
+
+
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)

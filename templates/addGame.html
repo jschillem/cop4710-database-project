@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Add a Game</h1>
+    <form action="{{ url_for('add_game') }}" method="post">
+      <label>Input Metacritic link:</label>
+      <input type="text", name="link"><br><br>
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
