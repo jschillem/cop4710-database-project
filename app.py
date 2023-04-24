@@ -1,6 +1,7 @@
 import requests
 from flask import Flask, render_template, request, session, redirect, url_for
 import sqlite3 as sql
+from populate import get_data, db_insert
 import re
 
 descendingName = False
@@ -83,7 +84,6 @@ def recommend_game():
 
     if request.method == 'POST':
         try:
-
             name_scores = {}
             selection_a = request.form['selection_a']
             selection_b = request.form['selection_b']
@@ -177,15 +177,19 @@ def add_game():
         return render_template('addGame.html')
 
     if request.method == 'POST':
+        con = sql.connect('videogame.db')
+        cur = con.cursor()
         link = request.form['link']
-        print(link)
 
         #Use scraper
-        # Get platforms
-
+        scraper = get_data(link = link)
+        entry = db_insert(con=con, cur=cur, scraper=scraper)
+        con.close()
         # return the new entry
-        return render_template('entry.html', entry=entry)
-
+        if entry:
+            return redirect(f'/entry/{entry}', 302)
+        else:
+            return redirect('/addGame', 302)
 
 
 if __name__ == "__main__":
