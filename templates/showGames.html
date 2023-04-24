@@ -33,9 +33,25 @@ Games
       <thead>
         <tr>
           <th></th>
-          <th scope="col"><a href={{ url_for('show_games', sort='name') }}>Name </a></th>
+          <th scope="col"><a href="
+            {% if not request.args.get('sort') %}
+              {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}&sort=name
+            {% elif request.args.get('sort') == 'score' %}
+            {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode|replace('sort=score', 'sort=name') }}
+            {% else %}
+              {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}
+            {% endif %}
+          ">Name </a></th>
           <th scope="col">Release Date</th>
-          <th scope="col"><a href={{ url_for('show_games', sort='score') }}>Game Score </a></th>
+          <th scope="col"><a href="
+            {% if not request.args.get('sort') %}
+              {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}&sort=score
+            {% elif request.args.get('sort') == 'name' %}
+            {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode|replace('sort=name', 'sort=score') }}
+            {% else %}
+              {{ url_for('show_games', **request.view_args) }}?{{ request.args|urlencode }}
+            {% endif %}
+          ">Game Score </a></th>
         </tr>
       </thead>
       <tbody>
