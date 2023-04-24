@@ -127,7 +127,7 @@ def recommend_game():
 
             # Find closest publisher match that has game of genre
             cur.execute(f'''
-                            SELECT publisher, AVG(game_score) AS avg_score
+                            SELECT games.id, publisher, AVG(game_score) AS avg_score
                             FROM games
                             WHERE publisher IN (SELECT DISTINCT publisher FROM ({joined_table} WHERE characteristics.data = '{highest_score_genre}') )
                             GROUP BY publisher
@@ -135,6 +135,7 @@ def recommend_game():
 
             closest_publisher = cur.fetchone()
             print(closest_publisher)
+            entry_id = closest_publisher[0]
 
             # Make sure the game ISNT one of the 3
             # Make sure the game is on one of the consoles of the 3 games
@@ -143,7 +144,8 @@ def recommend_game():
         except:
             print("Error")
 
-        return render_template('showGames.html')
+        return entry(entry_id)
+
 
     con.close()
 
