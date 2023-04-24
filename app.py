@@ -144,7 +144,7 @@ def recommend_game():
         except:
             print("Error")
 
-        return entry(entry_id)
+        return redirect(f'/entry/{entry_id}', 302)
 
 
     con.close()
