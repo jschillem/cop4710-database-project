@@ -1,14 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+{{ entry[1] }}
+{% endblock %}
 
-<div>
-    <h1>{{ entry }}</h1>
-</div>
+{% block content %}
+    <!-- Back button -->
+    <a href="{{ url_for('show_games') }}" class="btn btn-primary m-3 text-light">Back</a>
 
-</body>
-</html>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Game cover image -->
+                <img src="{{entry[0]}}" style="width: 90%; "alt="{{ entry[1] }} Cover Image" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <!-- Game name, age rating, and score -->
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h1 class="text-primary">{{ entry[1] }}</h1>
+                        <p class="text-secondary">Age Rating: <span class="text-dark">{{entry[2]}}</span></p>
+                    </div>
+                    <h1 class="display-3 text-warning">{{ entry[3] }}</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Developer and Publisher -->
+                        <p class="text-secondary">Developer: <span class="text-dark">{{ entry[4] }}</span></p>
+                        <p class="text-secondary">Publisher: <span class="text-dark">{{ entry[5] }}</span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Release date and Genre -->
+                        <p class="text-secondary">Release Date: <span class="text-dark">{{ entry[6] }}</span></p>
+                        <p class="text-secondary">Genre: <span class="text-dark"> {{ entry[7] }}</span></p>
+                    </div>
+                </div>
+
+                <!-- Game description -->
+                <p class="mt-3">{{ entry[8] }}</p>
+
+                <!-- Game platforms -->
+                <h4 class="mt-4">Platforms:</h4>
+                <ul>
+                    {% for platform in platforms %}
+                        <li>{{platform[0]}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}

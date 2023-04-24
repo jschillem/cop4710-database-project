@@ -1,6 +1,5 @@
 .layout {
   width: 100%;
-
   display: grid;
   grid:
     "sidebar body" 1fr
@@ -15,16 +14,17 @@ a {
 
 .sidebar {
   grid-area: sidebar;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
+  position: fixed; /* Use position-fixed instead of position-sticky */
+  top: 0; /* Set the sidebar to stick at the top of the viewport */
+  z-index: 100; /* Add a higher z-index to ensure the sidebar is above other content */
   overflow: hidden;
 }
 
 .sidebar-text {
-  text-overflow: ellipsis; /* Add ellipsis (...) at the end of the text if it overflows */
-  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
-.body { grid-area: body; }
+.body {
+  grid-area: body;
+}

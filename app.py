@@ -156,11 +156,25 @@ def entry(entry_id):
     conn = sql.connect('videogame.db')
     cur = conn.cursor()
 
-    cur.execute(f'''SELECT games.name FROM games WHERE id = {entry_id};''')
-    entry = cur.fetchone()[0]
+    cur.execute(f'''SELECT games.cover_img, games.name,  games.age_rating, games.game_score, developers.name, games.publisher, games.release_date, characteristics.data, games.description
+                    FROM games
+                    JOIN developed_by ON games.id = developed_by.game
+                    JOIN developers ON developed_by.developer = developers.id 
+                    JOIN game_has ON games.id = game_has.id
+                    JOIN characteristics ON characteristics.data = game_has.characteristic
+                    WHERE games.id = {entry_id};''')
+    entry = cur.fetchone()
+
+    cur.execute(f'''SELECT platforms.full_name
+                    FROM supported_on
+                    JOIN platforms ON supported_on.platform = platforms.name
+                    WHERE supported_on.game = {entry_id};
+                    ''')
+    platforms = cur.fetchall()
+
     print(entry)
     conn.close()
-    return render_template('entry.html', entry=entry)
+    return render_template('entry.html', entry=entry, platforms=platforms)
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)

@@ -3,44 +3,60 @@
 Games
 {% endblock %}
 {% block content %}
-<section class="layout">
-		<div class="sidebar p-4">
-			<h3 class="text-center"><u>Genre</u></h3>
-			<form>
-			{% for item in genres %}
-				<input type="radio" id="{{item[0]}}" name="genre" value="{{item[0]}}">
-				<label class="sidebar-text" for="{{item[0]}}">{{item[0]}}</label><br>
-			{% endfor %}
-			<input class="btn btn-primary m-3" type="submit" value="Apply">
-			</form>
-		</div>
-	<div class="body">
-		<table id = "mytable" class ="table table-striped table-hover">
-			<thead>
-			<tr>
-				<th></th>
-                <th scope="col"><a href={{ url_for('show_games', sort='name') }}>Name </a></th>
-                <th scope="col">Release Date</th>
-                <th scope="col"><a href={{ url_for('show_games', sort='score') }}>Game Score </a></th>
-			</tr>
-			</thead>
-			<tbody>
-				{% for row in overdue %}
-				<tr class="align-middle" id="{{row[0]}}">
-					<td><img class="rounded-2" src="{{row[4]}}""></td>
-					<td>
-						<div class="vstack">
-							<a href = "/entry/{{row[0]}}" class="fs-3">{{row[1]}}</a>
-							<div class="text-secondary""> {{row[5]}} </div>
-						</div >
-					</td>
-					<td class="fs-4">{{row[2]}}</td>
-					<td class ="text-warning fs-1">{{row[3]}}</td>
-				</tr>
-				{% endfor %}
-			</tbody>
-		</table>
+
+<div class="container-fluid">
+	<div class="row">
+	  <div class="col-12 text-center mt-4">
+		<h1>Video Game Database</h1>
+		<div class="text-secondary">Created by Justin Schilleman & Brandon Basch</div>
+	  </div>
 	</div>
+	<div class="row justify-content-end mr-4 mb-4">
+	  <div class="col-auto">
+		<a href="{{ url_for('recommend_game') }}" class="m-3 btn btn-primary btn-lg text-light">Recommendation Engine</a>
+	  </div>
+	</div>
+  
+<section class="layout">
+  <div class="sidebar position-fixed p-4">
+    <h3 class="text-center"><u>Genre</u></h3>
+    <form>
+      {% for item in genres %}
+      <input type="radio" id="{{item[0]}}" name="genre" value="{{item[0]}}">
+      <label class="sidebar-text" for="{{item[0]}}">{{item[0]}}</label><br>
+      {% endfor %}
+      <input class="btn btn-primary m-3" type="submit" value="Apply">
+    </form>
+  </div>
+  <div class="body">
+    <table id="mytable" class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th></th>
+          <th scope="col"><a href={{ url_for('show_games', sort='name') }}>Name </a></th>
+          <th scope="col">Release Date</th>
+          <th scope="col"><a href={{ url_for('show_games', sort='score') }}>Game Score </a></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in overdue %}
+        <tr class="align-middle" id="{{row[0]}}">
+          <td><a href="/entry/{{row[0]}}"><img class="rounded-2" src="{{row[4]}}""></a></td>
+          <td>
+            <div class="vstack">
+              <a href="/entry/{{row[0]}}" class="fs-3">{{row[1]}}</a>
+              <div class="text-secondary">{{row[5]}}</div>
+            </div>
+          </td>
+          <td class="fs-4">{{row[2]}}</td>
+          <td class="text-warning fs-1">{{row[3]}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </section>
+
+  
 
 {% endblock %}
