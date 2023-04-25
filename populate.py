@@ -148,10 +148,12 @@ def db_insert(con, cur, scraper, console=[]):
         cur.execute("INSERT INTO developed_by (game, developer) VALUES (?, ?)", (game_id, dev_id))
 
         for i in console:
+
             # If we had a link
-            for key, value in platforms.items():
-                if value == i:
-                    i = key
+            if i not in platforms.keys():
+                for key, value in platforms.items():
+                    if value == i:
+                        i = key
 
             print(i)
             cur.execute("INSERT INTO supported_on (game, platform) VALUES (?, ?)", (game_id, i))  # game_id gets updated in function
