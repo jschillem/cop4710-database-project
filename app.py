@@ -181,14 +181,14 @@ def add_game():
         link = request.form['link']
 
         #Use scraper
-        scraper = get_data(link = link)
-        entry = db_insert(con=con, cur=cur, scraper=scraper)
-        con.close()
-        # return the new entry
-        if entry:
-            return redirect(f'/entry/{entry}', 302)
-        else:
-            return redirect('/addGame', 302)
+        if "metacritic.com" in link:
+            scraper = get_data(link = link)
+            entry = db_insert(con=con, cur=cur, scraper=scraper, console=[link.split('/')[4]])
+            con.close()
+            # return the new entry
+            if entry:
+                return redirect(f'/entry/{entry}', 302)
+        return redirect('/addGame', 302)
 
 
 @app.route('/updateGame', methods=['GET', 'POST'])

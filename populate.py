@@ -17,7 +17,54 @@ else:
 
 from MetaCriticScraper import MetaCriticScraper
 
-game_id = None
+# Only platforms we are using, there is a lot of them.
+platforms = {
+    'PS3': 'playstation-3',
+    'X360': 'xbox-360',
+    'PC': 'pc',
+    'WiiU': 'wii-u',
+    '3DS': '3ds',
+    'PSV': 'playstation-vita',
+    'iOS': 'ios',
+    'Wii': 'wii',
+    'DS': 'ds',
+    'PSP': 'psp',
+    'PS2': 'playstation-2',
+    'PS': 'playstation',
+    'XB': 'xbox',
+    'GC': 'gamecube',
+    'GBA': 'game-boy-advance',
+    'DC': 'dreamcast',
+    'PS4': 'playstation-4',
+    'PS5': 'playstation-5',
+    'XOne': 'xbox-one',
+    'XS': 'xbox-series-x',
+    'NS': 'switch'
+}
+platformFull = {
+    'PS3': 'Playstation 3',
+    'X360': 'Xbox 360',
+    'PC': 'PC',
+    'WiiU': 'Wii U',
+    '3DS': '3DS',
+    'PSV': 'Playstation Vita',
+    'iOS': 'iOS',
+    'Wii': 'Wii',
+    'DS': 'DS',
+    'PSP': 'PSP',
+    'PS2': 'Playstation 2',
+    'PS': 'Playstation',
+    'XB': 'Xbox',
+    'GC': 'Gamecube',
+    'GBA': 'Gameboy Advance',
+    'DC': 'Dreamcast',
+    'PS4': 'Playstation 4',
+    'PS5': 'Playstation 5',
+    'XOne': 'Xbox One',
+    'XS': 'Xbox Series X/S',
+    'NS': 'Nintendo Switch'
+}
+
 
 def get_data(game=None, console=None, link=None):
 
@@ -53,7 +100,8 @@ def get_data(game=None, console=None, link=None):
     print("Developer: " + scraper.game['developer'])
     print("Genre: " + scraper.game['genre'])
     print("Rating: " + scraper.game['rating'])
-def db_insert(con, cur, scraper):
+
+def db_insert(con, cur, scraper, console=[]):
     global game_id
     if not scraper.game['critic_score']:
         print("No critic score found, cannot insert into database.")
@@ -99,14 +147,19 @@ def db_insert(con, cur, scraper):
 
         cur.execute("INSERT INTO developed_by (game, developer) VALUES (?, ?)", (game_id, dev_id))
 
+        for i in console:
+            # If we had a link
+            for key, value in platforms.items():
+                if value == i:
+                    i = key
+
+            print(i)
+            cur.execute("INSERT INTO supported_on (game, platform) VALUES (?, ?)", (game_id, i))  # game_id gets updated in function
+
         con.commit()
         print(f"{scraper.game['title']} inserted into database.")
         return game_id
 
-
-    except sqlite3.IntegrityError:
-        print("Error: Record already exists in database.")
-        return None
 
     except Exception as e:
         print(f"Error: {str(e)}")
@@ -115,54 +168,6 @@ def db_insert(con, cur, scraper):
 
 # Dont run on import
 if __name__ == "__main__":
-    # Only platforms we are using, there is a lot of them.
-    platforms = {
-        'PS3': 'playstation-3',
-        'X360': 'xbox-360',
-        'PC': 'pc',
-        'WiiU': 'wii-u',
-        '3DS': '3ds',
-        'PSV': 'playstation-vita',
-        'iOS': 'ios',
-        'Wii': 'wii',
-        'DS': 'ds',
-        'PSP': 'psp',
-        'PS2': 'playstation-2',
-        'PS': 'playstation',
-        'XB': 'xbox',
-        'GC': 'gamecube',
-        'GBA': 'game-boy-advance',
-        'DC': 'dreamcast',
-        'PS4': 'playstation-4',
-        'PS5': 'playstation-5',
-        'XOne': 'xbox-one',
-        'XS': 'xbox-series-x',
-        'NS': 'switch'
-    }
-    platformFull = {
-        'PS3': 'Playstation 3',
-        'X360': 'Xbox 360',
-        'PC': 'PC',
-        'WiiU': 'Wii U',
-        '3DS': '3DS',
-        'PSV': 'Playstation Vita',
-        'iOS': 'iOS',
-        'Wii': 'Wii',
-        'DS': 'DS',
-        'PSP': 'PSP',
-        'PS2': 'Playstation 2',
-        'PS': 'Playstation',
-        'XB': 'Xbox',
-        'GC': 'Gamecube',
-        'GBA': 'Gameboy Advance',
-        'DC': 'Dreamcast',
-        'PS4': 'Playstation 4',
-        'PS5': 'Playstation 5',
-        'XOne': 'Xbox One',
-        'XS': 'Xbox Series X/S',
-        'NS': 'Nintendo Switch'
-    }
-
     conn = sqlite3.connect('videogame.db')
     cur = conn.cursor()
 
@@ -196,11 +201,7 @@ if __name__ == "__main__":
             if not scraper.game['critic_score']:
                 continue
 
-            db_insert(conn, cur, scraper)
-
-            for console in v:
-                cur.execute("INSERT INTO supported_on (game, platform) VALUES (?, ?)", (game_id, console)) # game_id gets updated in function
-            conn.commit()
+            db_insert(conn, cur, scraper, console=v)
 
     conn.close()
     f.close()
