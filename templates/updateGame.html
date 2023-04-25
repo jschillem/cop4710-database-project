@@ -4,6 +4,7 @@ Update Game
 {% endblock %}
 {% block content %}
 
+<a href="{{ url_for('entry', entry_id=game[0]) }}" class="btn btn-primary m-3 text-light">Back to {{game[1]}} </a>
 <div class="container">
     <h1 class="m-3 text-center">Update Game</h1>
     <form method="post" action="{{ url_for('update_game') }}">

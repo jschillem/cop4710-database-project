@@ -8,7 +8,14 @@
 <a href="{{ url_for('show_games') }}" class="btn btn-primary m-3 text-light">Back to Database</a>
 
 <!-- Edit button -->
-<a href="{{ url_for('update_game', game_id=entry[9]) }}" class="btn btn-secondary btn-edit text-light float-right">Edit</a>
+<a href="{{ url_for('update_game', game_id=entry[9]) }}" class="mr-3 btn btn-secondary btn-edit text-light float-right">Edit</a>
+
+<!-- Delete button -->
+<form action="{{ url_for('delete_game', game_id=entry[9]) }}" method="post" class="d-inline">
+    <button type="submit" class="btn btn-danger btn-delete text-light float-right mx-3">Delete</button>
+</form>
+
+
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-4">

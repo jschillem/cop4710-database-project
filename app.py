@@ -275,5 +275,24 @@ def update_game():
                                gameChar=gameChar, platforms=allPlatforms,
                                gamePlatforms=gamePlatforms)
 
+@app.route('/delete_game/<int:game_id>', methods=['POST'])
+def delete_game(game_id):
+    conn = sql.connect('videogame.db')
+    c = conn.cursor()
+
+    # Delete the game from games table
+    c.execute("DELETE FROM games WHERE id = ?", (game_id,))
+
+    # Delete the game from supported_on table
+    c.execute("DELETE FROM supported_on WHERE game = ?", (game_id,))
+
+    # Delete the game from game_has table
+    c.execute("DELETE FROM game_has WHERE id = ?", (game_id,))
+
+    conn.commit()
+    conn.close()
+
+    return redirect(url_for('show_games'))
+
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)
