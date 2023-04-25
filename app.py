@@ -89,11 +89,11 @@ def recommend_game():
             selection_b = request.form['selection_b']
             selection_c = request.form['selection_c']
 
-            score_a = cur.execute(f'''SELECT id, game_score FROM games WHERE name = '{selection_a}';''').fetchone()
+            score_a = cur.execute(f'''SELECT id, game_score FROM games WHERE name = "{selection_a}" ;''').fetchone()
             name_scores[selection_a] = score_a[1]
-            score_b = cur.execute(f'''SELECT id, game_score FROM games WHERE name = '{selection_b}';''').fetchone()
+            score_b = cur.execute(f'''SELECT id, game_score FROM games WHERE name = "{selection_b}";''').fetchone()
             name_scores[selection_b] = score_b[1]
-            score_c = cur.execute(f'''SELECT id, game_score FROM games WHERE name = '{selection_c}';''').fetchone()
+            score_c = cur.execute(f'''SELECT id, game_score FROM games WHERE name = "{selection_c}";''').fetchone()
             name_scores[selection_c] = score_c[1]
             print(score_a[0], score_b[0], score_c[0])
 
@@ -102,44 +102,47 @@ def recommend_game():
                             FROM supported_on
                             JOIN platforms ON supported_on.platform = platforms.name
                             WHERE supported_on.game IN {score_a[0], score_b[0], score_c[0]};''')
-            platforms = tuple(set([row[0] for row in cur.fetchall()]))
+
+            # Fix for length of 1 tuples breaking query
+            platforms = list(set([row[0] for row in cur.fetchall()]))
+            platform_string = ', '.join([f"'{p}'" for p in platforms])
+            platforms = "(" + platform_string + ")"
+
+            # get genres
+            cur.execute(f'''SELECT characteristics.data FROM games
+                            JOIN game_has ON games.id = game_has.id
+                            JOIN characteristics ON characteristics.data = game_has.characteristic
+                            WHERE game_has.id IN {score_a[0], score_b[0], score_c[0]};''')
+
+            # Fix for length of 1 tuples breaking query
+            genres = list(set([row[0] for row in cur.fetchall()]))
+            genres_string = ', '.join([f"'{g}'" for g in genres])
+            genres = "(" + genres_string + ")"
 
             # Avg scoring of the 3 games
             avg_score = (score_a[1] + score_b[1] + score_c[1]) / 3
 
-            # Highest scoring game for genre selection
-            highest_score_name = max(name_scores.items(), key=lambda x: x[1])[0]
-
-            joined_table = '''SELECT characteristics.data FROM games
-                                    JOIN developed_by ON games.id = developed_by.game
-                                    JOIN developers ON developed_by.developer = developers.id
-                                    JOIN game_has ON games.id = game_has.id
-                                    JOIN characteristics ON characteristics.data = game_has.characteristic'''
-
-            highest_score_genre = cur.execute(f'''{joined_table} WHERE games.name = \'{highest_score_name}\' ''').fetchone()[0]
-            # print(highest_score_name)
-            # print(highest_score_genre)
-            # print(avg_score)
-
             # Find closest publisher match that has game of genre
             # Make sure the game ISNT one of the 3
-            # Abs value used to get closest match
+            # Make sure on a platform of the 3
+            # Abs value used to get closest match for score
             cur.execute(f'''
-                            SELECT games.id, publisher, AVG(game_score) AS avg_score
-                            FROM games
-                            WHERE publisher IN (SELECT DISTINCT publisher FROM ({joined_table} WHERE characteristics.data = '{highest_score_genre}') )
-                            AND games.name NOT IN ('{selection_a}', '{selection_b}', '{selection_c}')
-                            GROUP BY publisher
-                            ORDER BY ABS(avg_score - {avg_score}) LIMIT 1;''')
+                SELECT games.id, publisher, AVG(game_score) AS avg_score
+                FROM games
+                JOIN game_has ON games.id = game_has.id
+                JOIN characteristics ON characteristics.data = game_has.characteristic
+                JOIN supported_on ON games.id = supported_on.game
+                JOIN platforms ON supported_on.platform = platforms.name
+                WHERE characteristics.data IN {genres}
+                AND games.name NOT IN ("{selection_a}", "{selection_b}", "{selection_c}")
+                AND platforms.full_name IN {platforms}
+                GROUP BY publisher
+                ORDER BY ABS(avg_score - {avg_score}) LIMIT 1;''')
 
             closest_game = cur.fetchone()
-            # print(closest_game)
             entry_id = closest_game[0]
-            # Make sure the game is on one of the consoles of the 3 games
-            # None case
-
-        except:
-            print("Error")
+        except Exception as e:
+            print(e)
 
         return redirect(f'/entry/{entry_id}', 302)
 
