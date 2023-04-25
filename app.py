@@ -1,8 +1,13 @@
 import requests
 from flask import Flask, render_template, request, session, redirect, url_for
 import sqlite3 as sql
-from populate import get_data, db_insert
-import re
+from populate import get_data, db_insert, platformFull, platforms
+from bs4 import BeautifulSoup
+from urllib.request import Request
+from urllib.request import urlopen
+
+
+
 
 descendingName = False
 descendingScore = False
@@ -185,8 +190,35 @@ def add_game():
 
         #Use scraper
         if "metacritic.com" in link:
+
+            # Assume 'html' is the HTML string that contains the platform information
+            req = Request(link)
+            req.add_unredirected_header('User-Agent', 'Mozilla/5.0')
+            metacritic_url = urlopen(req, timeout=10)
+            html = metacritic_url.read()
+            soup = BeautifulSoup(html, 'html.parser')
+            platforms_li = soup.find('li', {'class': 'product_platforms'})
+            platforms_span = platforms_li.find('span', {'class': 'data'})
+            platforms_text = platforms_span.text.strip()
+            platforms_list = [p.strip() for p in platforms_text.split(',')]
+
+            print(platforms_list)
+
+            input_platform_list = []
+
+            platform = link.split('/')[4]
+            for key, value in platforms.items():
+                if value == platform:
+                    input_platform_list.append(key)
+
+            for p in platforms_list:
+                for key, value in platformFull.items():
+                    if value.lower() == p.lower():
+                        input_platform_list.append(key)
+
+            print(input_platform_list)
             scraper = get_data(link = link)
-            entry = db_insert(con=con, cur=cur, scraper=scraper, console=[link.split('/')[4]])
+            entry = db_insert(con=con, cur=cur, scraper=scraper, console=input_platform_list)
             con.close()
             # return the new entry
             if entry:
