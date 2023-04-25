@@ -289,6 +289,8 @@ def delete_game(game_id):
     # Delete the game from game_has table
     c.execute("DELETE FROM game_has WHERE id = ?", (game_id,))
 
+    # Delete the game from developed_by table
+    c.execute("DELETE FROM developed_by WHERE game = ?", (game_id,))
     conn.commit()
     conn.close()
 
