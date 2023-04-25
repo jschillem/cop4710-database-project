@@ -101,7 +101,7 @@ def recommend_game():
             cur.execute(f'''SELECT platforms.full_name
                             FROM supported_on
                             JOIN platforms ON supported_on.platform = platforms.name
-                            WHERE supported_on.game in {score_a[0], score_b[0], score_c[0]};''')
+                            WHERE supported_on.game IN {score_a[0], score_b[0], score_c[0]};''')
             platforms = tuple(set([row[0] for row in cur.fetchall()]))
 
             # Avg scoring of the 3 games
@@ -117,9 +117,9 @@ def recommend_game():
                                     JOIN characteristics ON characteristics.data = game_has.characteristic'''
 
             highest_score_genre = cur.execute(f'''{joined_table} WHERE games.name = \'{highest_score_name}\' ''').fetchone()[0]
-            print(highest_score_name)
-            print(highest_score_genre)
-            print(avg_score)
+            # print(highest_score_name)
+            # print(highest_score_genre)
+            # print(avg_score)
 
             # Find closest publisher match that has game of genre
             # Make sure the game ISNT one of the 3
@@ -133,7 +133,7 @@ def recommend_game():
                             ORDER BY ABS(avg_score - {avg_score}) LIMIT 1;''')
 
             closest_game = cur.fetchone()
-            print(closest_game)
+            # print(closest_game)
             entry_id = closest_game[0]
             # Make sure the game is on one of the consoles of the 3 games
             # None case
@@ -151,7 +151,7 @@ def entry(entry_id):
     conn = sql.connect('videogame.db')
     cur = conn.cursor()
 
-    cur.execute(f'''SELECT games.cover_img, games.name,  games.age_rating, games.game_score, developers.name, games.publisher, games.release_date, characteristics.data, games.description
+    cur.execute(f'''SELECT games.cover_img, games.name,  games.age_rating, games.game_score, developers.name, games.publisher, games.release_date, characteristics.data, games.description, games.id
                     FROM games
                     JOIN developed_by ON games.id = developed_by.game
                     JOIN developers ON developed_by.developer = developers.id 
@@ -167,7 +167,6 @@ def entry(entry_id):
                     ''')
     platforms = cur.fetchall()
 
-    print(entry)
     conn.close()
     return render_template('entry.html', entry=entry, platforms=platforms)
 
@@ -191,6 +190,90 @@ def add_game():
         else:
             return redirect('/addGame', 302)
 
+
+@app.route('/updateGame', methods=['GET', 'POST'])
+def update_game():
+    if request.method == 'POST':
+        game_id = request.form['game_id']
+        name = request.form['name']
+        description = request.form['description']
+        cover_img = request.form['cover_img']
+        publisher = request.form['publisher']
+        age_rating = request.form['age_rating']
+        game_score = request.form['game_score']
+        release_date = request.form['release_date']
+        developers = request.form.getlist('developers[]')
+        characteristics = request.form.getlist('characteristics[]')
+        platforms = request.form.getlist('platforms[]')
+
+        # Update game information in games table
+        conn = sql.connect('videogame.db')
+        c = conn.cursor()
+        c.execute("""
+            UPDATE games SET name=?, description=?, cover_img=?, publisher=?, age_rating=?, game_score=?, release_date=?
+            WHERE id=?
+        """, (name, description, cover_img, publisher, age_rating, game_score, release_date, game_id))
+        conn.commit()
+
+        # Update relationships in game_has table
+        c.execute("DELETE FROM game_has WHERE id=?", (game_id,))
+        for characteristic in characteristics:
+            c.execute("INSERT INTO game_has (id, characteristic) VALUES (?, ?)", (game_id, characteristic))
+        conn.commit()
+
+        # Update relationships in developed_by table
+        c.execute("DELETE FROM developed_by WHERE game=?", (game_id,))
+        for developer in developers:
+            c.execute("INSERT INTO developed_by (game, developer) VALUES (?, ?)", (game_id, developer))
+        conn.commit()
+
+        # Update relationships in supported_on table
+        c.execute("DELETE FROM supported_on WHERE game=?", (game_id,))
+        for platform in platforms:
+            c.execute("INSERT INTO supported_on (game, platform) VALUES (?, ?)", (game_id, platform))
+        conn.commit()
+
+        conn.close()
+
+        return redirect(f'/entry/{game_id}', 302)
+
+    else:
+        game_id = request.args.get('game_id')
+        conn = sql.connect('videogame.db')
+        c = conn.cursor()
+
+        # Fetch game information from games table
+        c.execute("SELECT * FROM games WHERE id=?", (game_id,))
+        game = c.fetchone()
+        print(game)
+
+        # Fetch developers, characteristics, and platforms information from respective tables
+        c.execute("SELECT * FROM developers ORDER BY name")
+        allDevelopers = c.fetchall()
+
+        c.execute('SELECT developer FROM developed_by WHERE game = ?', (game_id,))
+        gameDev = c.fetchone()
+
+        c.execute("SELECT * FROM characteristics")
+        allCharacteristics = c.fetchall()
+
+        c.execute('SELECT characteristic FROM game_has WHERE id = ?', (game_id,))
+        gameChar = c.fetchone()
+        gameChar = gameChar[0]
+        print(gameChar)
+
+        c.execute("SELECT * FROM platforms")
+        allPlatforms = c.fetchall()
+
+        c.execute('SELECT platform FROM supported_on WHERE game = ?', (game_id,))
+        gamePlatforms = c.fetchall()
+
+        conn.close()
+
+        return render_template('updateGame.html', game=game, developers=allDevelopers,
+                               gameDev=gameDev, characteristics=allCharacteristics,
+                               gameChar=gameChar, platforms=allPlatforms,
+                               gamePlatforms=gamePlatforms)
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)

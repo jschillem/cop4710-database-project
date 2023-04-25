@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% block title %}
+Update Game
+{% endblock %}
+{% block content %}
+
+<div class="container">
+    <h1 class="m-3 text-center">Update Game</h1>
+    <form method="post" action="{{ url_for('update_game') }}">
+        <input type="hidden" name="game_id" value="{{ game[0] }}">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" value="{{ game[1] }}" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" id="description" name="description" rows="4" required>{{ game[2] }}</textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="cover_img">Cover Image</label>
+            <input type="text" class="form-control" id="cover_img" name="cover_img" value="{{ game[3] }}" required>
+        </div>
+
+        <div class="form-group">
+            <label for="publisher">Publisher</label>
+            <input type="text" class="form-control" id="publisher" name="publisher" value="{{ game[4] }}" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age_rating">Age Rating</label>
+            <input type="text" class="form-control" id="age_rating" name="age_rating" value="{{ game[5] }}" required>
+        </div>
+
+        <div class="form-group">
+            <label for="game_score">Game Score</label>
+            <input type="number" class="form-control" id="game_score" name="game_score" value="{{ game[6] }}" required>
+        </div>
+
+        <div class="form-group">
+            <label for="release_date">Release Date</label>
+            <input type="text" class="form-control" id="release_date" name="release_date" value="{{ game[7] }}" required>
+        </div>
+
+        <div class="form-group">
+            <label for="developers">Developers</label>
+            <select class="form-control" id="developers" name="developers[]" required>
+                <option disabled value="">Select a developer</option>
+                {% for developer in developers %}
+                    <option value="{{ developer[0] }}"
+                        {% if gameDev[0] == developer[0] %}
+                            selected
+                        {% endif %}
+                    >{{ developer[1] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="characteristics">Characteristics</label>
+            <select class="form-control" id="characteristics" name="characteristics[]" required>
+                <option disabled value="">Select a characteristic</option>
+                {% for characteristic in characteristics %}
+                    <option value="{{ characteristic[0] }}"
+                        {% if gameChar == characteristic[0] %}
+                            selected
+                        {% endif %}
+                    >{{ characteristic[0] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="platforms">Platforms</label>
+            <select class="form-control" id="platforms" name="platforms[]" required multiple>
+                {% for platform in platforms %}
+                    <option value="{{ platform[0] }}"
+                        {% for gPlat in gamePlatforms %}
+                            {% if gPlat[0] == platform[0] %}
+                                selected
+                            {% endif %}
+                        {% endfor %}
+                    >{{ platform[1] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="m-4 btn btn-primary">Update Game</button>
+    </form>
+        
+
+{% endblock %}
