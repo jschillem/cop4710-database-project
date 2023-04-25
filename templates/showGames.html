@@ -65,7 +65,7 @@ Games
       <tbody>
         {% for row in overdue %}
         <tr class="align-middle" id="{{row[0]}}">
-          <td><a href="/entry/{{row[0]}}"><img class="rounded-2" src="{{row[4]}}""></a></td>
+          <td><a href="/entry/{{row[0]}}"><img class="rounded-2" src="{{row[4]}}" style="max-width: 98px; max-height: 141px"></a></td>
           <td>
             <div class="vstack">
               <a href="/entry/{{row[0]}}" class="fs-3">{{row[1]}}</a>
